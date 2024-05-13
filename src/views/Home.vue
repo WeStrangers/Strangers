@@ -18,8 +18,8 @@
 </template>
 
 <script setup lang="ts">
-import Card from '../components/main/Card.vue';
-import Button from '../components/main/Button.vue';
+import Card from '../components/main/home/Card.vue';
+import Button from '../components/main/home/Button.vue';
 </script>
 
 <style scoped>
