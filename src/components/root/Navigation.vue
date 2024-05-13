@@ -5,10 +5,15 @@
 		</div>
 
 		<div class="flex flex-col justify-between h-full">
-			<nav class="flex flex-col space-y-2">
-				<router-link class="rounded-xl" to="/"><Button class="w-full h-full text-left">{{ $t('navigation.pages.home') }}</Button></router-link>
-				<router-link class="rounded-xl" to="/characters"><Button class="w-full h-full text-left">{{ $t('navigation.pages.characters') }}</Button></router-link>
-				<router-link class="rounded-xl" to="/settings"><Button class="w-full h-full text-left">{{ $t('navigation.pages.settings') }}</Button></router-link>
+			<nav class="flex flex-col *:*:w-full *:*:h-full *:*:text-left *:rounded-xl space-y-2">
+				<router-link to="/"><Button class="">{{ $t('navigation.pages.home') }}</Button></router-link>
+				<router-link to="/characters"><Button>{{ $t('navigation.pages.characters') }}</Button></router-link>
+
+				<router-link to="/echoes"><Button>{{ $t('navigation.pages.echoes') }}</Button></router-link>
+				<router-link to="/weapons"><Button>{{ $t('navigation.pages.weapons') }}</Button></router-link>
+				<router-link to="/items"><Button>{{ $t('navigation.pages.items') }}</Button></router-link>
+
+				<router-link to="/settings"><Button>{{ $t('navigation.pages.settings') }}</Button></router-link>
 			</nav>
 	
 			<Locale />
@@ -23,7 +28,6 @@ import Button from '../navigation/Button.vue';
 
 <style scoped>
 a.router-link-active {
-	--tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-color: rgb(30 41 59);
 }
 </style>

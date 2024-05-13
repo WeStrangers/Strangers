@@ -1,5 +1,5 @@
 <template>
-  <div id="locales" class="flex flex-col space-y-2">
+  <div id="locales" class="flex flex-col rounded-xl bg-slate-800">
 		<Button class="hide" @click="changeLocale('ru')">🇷🇺 Русский</Button>
 		<Button class="hide" @click="changeLocale('en')">🇬🇧 English</Button>
 		<Button>Languages</Button>
