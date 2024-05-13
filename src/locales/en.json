@@ -4,14 +4,6 @@
 			"alt": "Strangers Logo"
 		}
 	},
-	"main": {
-		"home": {
-			"welcome": {
-				"title": "",
-				"description": ""
-			}
-		}
-	},
 	"navigation": {
 		"pages": {
 			"home": "Home",
@@ -19,7 +11,25 @@
 			"settings": "Settings"
 		}
 	},
+	"main": {
+		"home": {
+			"welcome": {
+				"title": "Welcome",
+				"description": [
+					"Welcome Stranger.",
+					"\"Stranger\" is your assistant in Wuthering Waves!"
+				]
+			},
+			"characters": {
+				
+			}
+		}
+	},
 	"footer": {
-		"rights": "Stranger is an unofficial database/wiki for the game [Wuthering Waves](https://wutheringwaves.com/) and is not affiliated with Frontier Developments. All information provided is based on publicly available information."
+		"rights": [
+			"Stranger is an unofficial database/wiki for the game",
+			"and is not affiliated with KURO GAMES.",
+			"All information provided is based on publicly available information."
+		]
 	}
 }

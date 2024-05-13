@@ -14,17 +14,33 @@
 	"main": {
 		"home": {
 			"welcome": {
-				"title": "Добро пожаловать Stranger",
-				"description": "Чёт написать :)"
+				"title": "Добро пожаловать на Stranger!",
+				"description": [
+					"Добро пожаловать, Странник.",
+					"Stranger ваш помощник в Wuthering Waves!"
+				]
 			},
 			"characters": {
 				"title": "Узнайте всё о персонажах",
-				"description1": "Вики по персонажам.",
-				"description2": "Узнайте самую актуальную информацию."
+				"description": [
+					"Вики по персонажам.",
+					 "Узнайте самую актуальную информацию."
+				],
+				"button": "Персонажи"
 			}
 		}
 	},
 	"footer": {
-		"rights": "Stranger is an unofficial database/wiki for the game Wuthering Waves and is not affiliated with Frontier Developments. All information provided is based on publicly available information."
+		"socials": {
+			"text": "Социальные сети:",
+			"links": {
+				"developer": "Разработчик"
+			}
+		},
+		"rights": [
+			"Stranger — неофициальная база данных/вики игры",
+			"и этот сайт никак не связан с KURO GAMES.",
+			"Вся предоставленная информация основана на общедоступной информации."
+		]
 	}
 }

@@ -11,8 +11,8 @@ function changeLocale(locale: string): void {
 };
 
 const i18n = createI18n({
-	locale: localStorage.locale || 'en',
-	fallbackLocale: 'en',
+	locale: localStorage.locale || 'ru',
+	fallbackLocale: 'ru',
 	messages: {
 		ru, en,
 	}
