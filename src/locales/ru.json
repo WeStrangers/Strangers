@@ -28,6 +28,10 @@
 				],
 				"button": "Персонажи"
 			},
+			"timer": {
+				"title": "Таймер",
+				"description": "До выхода игры осталось:"
+			},
 			"info": {
 				"title": "Информация",
 				"description": [
