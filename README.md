@@ -1,6 +1,18 @@
-# Vue 3 + TypeScript + Vite
+# Website developed by WeStrangers
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+We want to bring something new to the WuWe community. By creating this wiki for us and other people.
+
+[Link into the website](https://wuthering.netlify.app/)
+
+## You can help us!
+
+### Without programming
+
+Simply find and [structure information](https://github.com/WeStrangers/Strangers/tree/development/src/assets) and [translate it](https://github.com/WeStrangers/Strangers/tree/development/src/locales) into your language.
+
+### With programming
+
+Just write code and make cool features! You can do it! We believe in it!
 
 ## Recommended Setup
 

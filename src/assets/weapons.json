@@ -1,0 +1,26 @@
+{
+	"sword": {
+		"i18n": "resonators.weapons.sword",
+		"icon": "/images/weapons/sword.webp"
+	},
+	"broadblade": {
+		"i18n": "resonators.weapons.broadblade",
+		"icon": "/images/weapons/broadblade.webp"
+	},
+	"gauntlet": {
+		"i18n": "resonators.weapons.gauntlet",
+		"icon": "/images/weapons/gauntlet.webp"
+	},
+	"pistols": {
+		"i18n": "resonators.weapons.pistols",
+		"icon": "/images/weapons/pistols.webp"
+	},
+	"rectifier": {
+		"i18n": "resonators.weapons.rectifier",
+		"icon": "/images/weapons/rectifier.webp"
+	},
+	"none": {
+		"i18n": null,
+		"icon": "/images/weapons/none.png"
+	}
+}
