@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="w-screen min-h-screen text-white bg-slate-950">
 		<NavigationTop class="z-50" />
 		<NavigationLeft class="w-48" />
@@ -15,24 +14,22 @@
 			</main>
 			<Footer />
 		</div>
-=======
-  <div class="w-screen min-h-screen flex dark:text-white dark:bg-slate-950">
-		<h1 class="text-4xl m-auto">Coming Soon</h1>
->>>>>>> product
 	</div>
 </template>
 
 <script setup lang="ts">
-<<<<<<< HEAD
-
 import NavigationTop from './components/root/NavigationTop.vue';
 import NavigationLeft from './components/root/NavigationLeft.vue';
 import Footer from './components/root/Footer.vue';
-=======
->>>>>>> product
-
 </script>
 
 <style scoped>
-
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.25s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>
