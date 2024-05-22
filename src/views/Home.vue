@@ -3,16 +3,20 @@
 		<Card>
 			<h1 class="text-xl">{{ $t('main.home.welcome.title') }}</h1>
 			<hr class="w-full border-slate-800">
-			<p>{{ $t('main.home.welcome.description.0') }}</p>
-			<p>{{ $t('main.home.welcome.description.1') }}</p>
+			<p v-for="(el, index) in $tm('main.home.welcome.description')" :key="index">{{ el }}</p>
 		</Card>
 
 		<Card>
-			<h1 class="text-xl">{{ $t('main.home.characters.title') }}</h1>
+			<h1 class="text-xl">{{ $t('main.home.resonators.title') }}</h1>
 			<hr class="w-full border-slate-800">
-			<p>{{ $t('main.home.characters.description.0') }}</p>
-			<p>{{ $t('main.home.characters.description.1') }}</p>
-			<router-link to="/characters"><Button>{{ $t('main.home.characters.button') }}</Button></router-link>
+			<p v-for="(el, index) in $tm('main.home.resonators.description')" :key="index">{{ el }}</p>
+			<router-link to="/resonators"><Button>{{ $t('main.home.resonators.button') }}</Button></router-link>
+		</Card>
+		
+		<Card>
+			<h1 class="text-xl">{{ $t('main.home.info.title') }}</h1>
+			<hr class="w-full border-slate-800">
+			<p v-for="(el, index) in $tm('main.home.info.description')" :key="index">{{ el }}</p>
 		</Card>
 	</div>
 </template>

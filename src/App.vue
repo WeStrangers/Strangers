@@ -1,7 +1,8 @@
 <template>
-  <div class="w-screen min-h-screen dark:text-white dark:bg-slate-950">
-		<Navigation class="w-48" />
-		<div class="ms-48">
+  <div class="w-screen min-h-screen text-white bg-slate-950">
+		<NavigationTop class="z-50" />
+		<NavigationLeft class="w-48" />
+		<div class="ps-0 pt-12 md:ps-48 md:pt-0">
 			<main class="min-h-screen" >
 				<router-view v-slot="{ Component }">
 					<!-- <KeepAlive> -->
@@ -17,7 +18,9 @@
 </template>
 
 <script setup lang="ts">
-import Navigation from './components/root/Navigation.vue';
+
+import NavigationTop from './components/root/NavigationTop.vue';
+import NavigationLeft from './components/root/NavigationLeft.vue';
 import Footer from './components/root/Footer.vue';
 
 // Whenever the user explicitly chooses light mode

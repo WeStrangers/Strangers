@@ -7,34 +7,26 @@
 	font-family: 'Material Symbols Outlined';
 	font-style: normal;
 	font-weight: 400;
-	src: url('./assets/fonts/MaterialSymbolsOutlined.woff2') format('woff2');
-}
-
-.icon {
-	font-family: 'Material Symbols Outlined';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 24px;
-	line-height: 1;
-	letter-spacing: normal;
-	text-transform: none;
-	display: inline-block;
-	white-space: nowrap;
-	word-wrap: normal;
-	direction: ltr;
-	-moz-font-feature-settings: 'liga';
-	-moz-osx-font-smoothing: grayscale;
+	src: url('/fonts/MaterialSymbolsOutlined.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Material Symbols Outlined Fill';
 	font-style: normal;
 	font-weight: 400;
-	src: url('./assets/fonts/MaterialSymbolsOutlinedFill.woff2') format('woff2');
+	src: url('/fonts/MaterialSymbolsOutlinedFill.woff2') format('woff2');
+}
+
+.icon {
+	font-family: 'Material Symbols Outlined';
 }
 
 .icon-fill {
 	font-family: 'Material Symbols Outlined Fill';
+}
+
+.icon,
+.icon-fill {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 24px;

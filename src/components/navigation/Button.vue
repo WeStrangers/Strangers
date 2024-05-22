@@ -1,7 +1,7 @@
 <template>
-	<div class="px-6 py-3 font-semibold cursor-pointer text-slate-400 hover:text-white">
+	<button class="px-6 py-3 font-semibold cursor-pointer text-slate-400 hover:text-white">
 		<slot />
-	</div>
+	</button>
 </template>
 
 <script setup lang="ts">

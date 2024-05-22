@@ -1,8 +1,8 @@
 <template>
-  <div id="locales" class="flex flex-col rounded-xl bg-slate-800">
-		<Button class="hide" @click="changeLocale('ru')">🇷🇺 Русский</Button>
-		<Button class="hide" @click="changeLocale('en')">🇬🇧 English</Button>
+  <div id="locales" class="flex flex-col md:flex-col-reverse group rounded-xl bg-slate-800">
 		<Button>Languages</Button>
+		<Button class="hidden group-hover:block" @click="changeLocale('en')">🇬🇧 English</Button>
+		<Button class="hidden group-hover:block" @click="changeLocale('ru')">🇷🇺 Русский</Button>
 	</div>
 </template>
 
@@ -13,11 +13,5 @@ import Button from '../navigation/Button.vue';
 </script>
 
 <style scoped>
-div#locales > .hide {
-	display: none;
-}
 
-div#locales:hover > .hide {
-	display: unset;
-}
 </style>

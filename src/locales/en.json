@@ -7,7 +7,7 @@
 	"navigation": {
 		"pages": {
 			"home": "Home",
-			"characters": "Characters",
+			"resonators": "Resonators",
 			"settings": "Settings"
 		}
 	},
@@ -20,14 +20,153 @@
 					"\"Stranger\" is your assistant in Wuthering Waves!"
 				]
 			},
-			"characters": {
-				
+			"resonators": {
+				"title": "Learn all about resonators",
+				"description": [
+					"Wiki about all the resonators.",
+					"Find out the most up-to-date information."
+				],
+				"button": "Resonators"
+			},
+			"info": {
+				"title": "",
+				"description": [
+					"This page will updates sometimes (✿◕‿◕✿)",
+					"I'm very interested in WuWe and i think you to ^_^"
+				]
 			}
+		},
+		"settings": {
+			"empty": "Here is empty :)"
+		}
+	},
+	"resonators": {
+		"elements": {
+			"title": "Elements",
+			"aero": "Aero",
+			"electro": "Electro",
+			"fusion": "Fusion",
+			"glacio": "Glacio",
+			"havoc": "Havoc",
+			"spectro": "Spectro",
+			"attribute": "{element} attribute"
+		},
+		"weapons": {
+			"title": "Weapons",
+			"sword": "Sword",
+			"broadblade": "Broadblade",
+			"gauntlet": "Gauntlet",
+			"pistols": "Pistols",
+			"rectifier": "Rectifier"
+		},
+		"list": {
+			"aalto": {
+				"name": "Aalto",
+				"subname": "Mistcloak Strike",
+				"description": "The leader of the Black Shores, elusive and unpredictable as the mist. Under the attitude of the game of life, there is always a meticulous plan hidden."
+			},
+			"baizhi": {
+				"name": "Baizhi",
+				"subname": "You'tan Companion",
+				"description": "An archaeologist from the Huanglong Research Institute, symbiotically living with a remnant creature named \"You'tan\". Adhering to the extreme rational principle of \"being responsible for oneself\", often explores the ruins alone."
+			},
+			"calcharo": {
+				"name": "Calcharo",
+				"subname": "Calcharo",
+				"description": "Calcharo"
+			},
+			"camellya": {
+				"name": "Camellya",
+				"subname": "",
+				"description": ""
+			},
+			"chang_li": {
+				"name": "Chang Li",
+				"subname": "",
+				"description": ""
+			},
+			"chixia": {
+				"name": "Chixia",
+				"subname": "Gallant Blaze",
+				"description": "One of the members of the Ministry of Development, she can turn passion into ammunition. Her ammunition, like her passion, never ceases."
+			},
+			"danjin": {
+				"name": "Danjin",
+				"subname": "Red Light Sword Shadow",
+				"description": "One of the Midnight Rangers, her longing for kinship is almost obsessive. If anyone dares to harm her \"family\", she will not tolerate it, even if it takes all her strength."
+			},
+			"encore": {
+				"name": "Encore",
+				"subname": "Counting Sheep Game",
+				"description": "One of the members of the Black Shores, the black and white Wooly is often by her side. Her vibrant energy illuminates the surroundings, but few people know her fear of facing the darkness."
+			},
+			"jianxin": {
+				"name": "Jianxin",
+				"subname": "Jianxin",
+				"description": "Jianxin"
+			},
+			"jiyan": {
+				"name": "Jiyan",
+				"subname": "Windborne Rider",
+				"description": "The captain of the Midnight Rangers, Jiyan. With determination and swift action, he turns the wind field into Qingloong, guiding the direction of the Midnight Rangers. He has been leading the Midnight Rangers in the frontline of the fight against the Lament for many years, witnessing the most real and cruel side of this world."
+			},
+			"lingyang": {
+				"name": "Lingyang",
+				"subname": "White Tiger",
+				"description": "White Tiger"
+			},
+			"mortefi": {
+				"name": "Mortefi",
+				"subname": "Dragon's Breath",
+				"description": "A Tacetite research expert from the New Federation settled in Huanglong, who can turn anger into power. In the deep red eyes, there seems to be an indelible anger."
+			},
+			"rover": {
+				"name": "Rover",
+				"subname": "Echo",
+				"description": "The Resonator with an unknown origin, possesses the power to absorb all sounds. Embarks on a journey to retrieve the memory."
+			},
+			"sanhua": {
+				"name": "Sanhua",
+				"subname": "Snow Waltz",
+				"description": "The Dragon Lord's Guard, as cold as ice and snow. In her eyes, all things in the world will distort into bizarre shapes, and only a few people maintain the normal and pure reality."
+			},
+			"taoqi": {
+				"name": "Taoqi",
+				"subname": "Power of Black Tortoise",
+				"description": "The Chief Officer of Ministry of Development, inheritor of the power of the Black Tortoise. Under the lazy and casual appearance, he carries the heavy responsibility of guarding the entire Jinzhou."
+			},
+			"verina": {
+				"name": "Verina",
+				"subname": "Natural Melody",
+				"description": "The botanist from the New Federation settled in Huanglong, who can listen to the voice of plants. The Starflower blooming on the vine, just like her twinkling courage."
+			},
+			"yangyang": {
+				"name": "Yangyang",
+				"subname": "Breath of Winds",
+				"description": "One of the Midnight Rangers, capable of sensing messages in the wind. For the sake of protecting the beauty he acknowledges, he is also aware of the need to turn gentleness into a sharp blade."
+			},
+			"yinlin": {
+				"name": "Yinlin",
+				"subname": "Thunder Palm Mechanism",
+				"description": "The judge of Huanglong, manipulating puppets with the power of thunder, judges the weak who are lost in power. Belongs to the Midnight Rangers, but due to the proud personality, it is detached."
+			},
+			"yuanwu": {
+				"name": "Yuanwu",
+				"subname": "Thunder Trace Tree Shadow",
+				"description": "The owner of the Nightingale Teahouse, proficient in tea therapy, and good at using Leihuangquan. In the gusts of wind from his punches, it seems that one can see the faint lightning and the graceful tree shadows."
+			},
+			"icon_alt": "{resonator} icon"
 		}
 	},
 	"footer": {
+		"socials": {
+			"text": "Social media:",
+			"links": {
+				"developer": "Developer"
+			}
+		},
 		"rights": [
-			"Stranger is an unofficial database/wiki for the game",
+			"Strangers is an unofficial database/wiki for the game",
 			"and is not affiliated with KURO GAMES.",
 			"All information provided is based on publicly available information."
 		]
