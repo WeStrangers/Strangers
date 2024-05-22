@@ -36,7 +36,6 @@ import Card from '../components/main/home/Card.vue';
 import Button from '../components/main/home/Button.vue';
 
 const timer: Ref<Date> = ref(new Date());
-const timerEnd = new Date(2024, 5, 23, 5);
 
 setInterval(() => {
 	timer.value = new Date();
@@ -44,8 +43,8 @@ setInterval(() => {
 
 function getTimer(): string {
 	let hours = `${25 - timer.value.getUTCHours()}`;
-	let minutes = 60 - timer.value.getUTCMinutes() < 10 ? `0${60 - timer.value.getUTCMinutes()}` : `${60 - timer.value.getUTCMinutes()}`;
-	let seconds = 60 - timer.value.getUTCSeconds() < 10 ? `0${60 - timer.value.getUTCSeconds()}` : `${60 - timer.value.getUTCSeconds()}`;
+	let minutes = timer.value.getUTCMinutes() !== 0 ? 60 - timer.value.getUTCMinutes() < 10 ? `0${60 - timer.value.getUTCMinutes()}` : `${60 - timer.value.getUTCMinutes()}` : `00`;
+	let seconds = timer.value.getUTCSeconds() !== 0 ? 60 - timer.value.getUTCSeconds() < 10 ? `0${60 - timer.value.getUTCSeconds()}` : `${60 - timer.value.getUTCSeconds()}` : `00`;
 	return `${hours}:${minutes}:${seconds}`;
 };
 </script>
