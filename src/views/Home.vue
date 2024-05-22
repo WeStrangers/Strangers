@@ -13,7 +13,8 @@
 			<router-link to="/resonators"><Button>{{ $t('main.home.resonators.button') }}</Button></router-link>
 		</Card>
 		
-		<Card>
+		<!-- @vue-skip -->
+		<Card v-if="timerEnd - timer > 0">
 			<h1 class="text-xl">{{ $t('main.home.timer.title') }}</h1>
 			<hr class="w-full border-slate-800">
 			<p class="text-xl self-center">{{ $t('main.home.timer.description') }}</p>
@@ -36,9 +37,6 @@ import Button from '../components/main/home/Button.vue';
 
 const timer: Ref<Date> = ref(new Date());
 const timerEnd = new Date(2024, 5, 23, 5);
-
-console.log(timer.value)
-console.log(timerEnd)
 
 setInterval(() => {
 	timer.value = new Date();
