@@ -36,6 +36,7 @@ import Card from '../components/main/home/Card.vue';
 import Button from '../components/main/home/Button.vue';
 
 const timer: Ref<Date> = ref(new Date());
+const timerEnd = new Date(2024, 5, 23, 5);
 
 setInterval(() => {
 	timer.value = new Date();
