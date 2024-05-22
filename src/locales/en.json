@@ -28,6 +28,10 @@
 				],
 				"button": "Resonators"
 			},
+			"timer": {
+				"title": "Timer",
+				"description": "Time left until the game releases:"
+			},
 			"info": {
 				"title": "Information",
 				"description": [
