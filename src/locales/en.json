@@ -164,6 +164,7 @@
 		"socials": {
 			"text": "Social media:",
 			"links": {
+				"github": "GitHub",
 				"developer": "Developer"
 			}
 		},

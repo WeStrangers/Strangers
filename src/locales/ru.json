@@ -51,6 +51,7 @@
 		"socials": {
 			"text": "Социальные сети:",
 			"links": {
+				"github": "GitHub",
 				"developer": "Разработчик"
 			}
 		},
