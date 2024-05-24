@@ -13,14 +13,6 @@
 			<router-link to="/resonators"><Button>{{ $t('main.home.resonators.button') }}</Button></router-link>
 		</Card>
 		
-		<!-- @vue-skip -->
-		<Card v-if="timerEnd - timer > 0">
-			<h1 class="text-xl">{{ $t('main.home.timer.title') }}</h1>
-			<hr class="w-full border-slate-800">
-			<p class="text-xl self-center">{{ $t('main.home.timer.description') }}</p>
-			<p class="text-6xl self-center">{{ getTimer() }}</p>
-		</Card>
-		
 		<Card>
 			<h1 class="text-xl">{{ $t('main.home.info.title') }}</h1>
 			<hr class="w-full border-slate-800">
