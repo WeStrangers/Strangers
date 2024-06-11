@@ -6,7 +6,7 @@
 
 		<div class="flex flex-col justify-between h-full">
 			<nav class="flex flex-col *:*:w-full *:*:h-full *:*:text-left *:rounded-xl space-y-2">
-				<router-link to="/"><Button class="">{{ $t('navigation.pages.home') }}</Button></router-link>
+				<router-link to="/"><Button>{{ $t('navigation.pages.home') }}</Button></router-link>
 				<router-link to="/resonators"><Button>{{ $t('navigation.pages.resonators') }}</Button></router-link>
 
 				<!-- <router-link to="/echoes"><Button>{{ $t('navigation.pages.echoes') }}</Button></router-link> -->
