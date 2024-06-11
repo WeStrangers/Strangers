@@ -1,0 +1,20 @@
+{
+	"health": {
+		"icon": "/images/attributes/T_Iconpropertygreenlife_UI.png"
+	},
+	"attack": {
+		"icon": "/images/attributes/T_Iconpropertyredattack_UI.png"
+	},
+	"defense": {
+		"icon": "/images/attributes/T_Iconpropertygreendefense_UI.png"
+	},
+	"crit_damage": {
+		"icon": "/images/attributes/T_Iconpropertyredbaoji_UI.png"
+	},
+	"crit_rate": {
+		"icon": "/images/attributes/T_Iconpropertyredcrit_UI.png"
+	},
+	"energy_regen": {
+		"icon": "/images/attributes/T_Iconpropertygreenenergy_UI.png"
+	}
+}

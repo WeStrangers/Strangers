@@ -8,44 +8,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 788,
-				"atk": 21,
-				"def": 88
+				"health": 788,
+				"attack": 21,
+				"defense": 88
 			},
 			"20": {
-				"hp": 2575.18,
-				"atk": 69.93,
-				"def": 282.48
+				"health": 2575.18,
+				"attack": 69.93,
+				"defense": 282.48
 			},
 			"40": {
-				"hp": 4420.68,
-				"atk": 121.38,
-				"def": 484.88
+				"health": 4420.68,
+				"attack": 121.38,
+				"defense": 484.88
 			},
 			"50": {
-				"hp": 5618.44,
-				"atk": 154.98,
-				"def": 614.24
+				"health": 5618.44,
+				"attack": 154.98,
+				"defense": 614.24
 			},
 			"60": {
-				"hp": 6806.74,
-				"atk": 187.74,
-				"def": 743.86
+				"health": 6806.74,
+				"attack": 187.74,
+				"defense": 743.86
 			},
 			"70": {
-				"hp": 7996.62,
-				"atk": 216.93,
-				"def": 873.81
+				"health": 7996.62,
+				"attack": 216.93,
+				"defense": 873.81
 			},
 			"80": {
-				"hp": 9186.36,
-				"atk": 245.00,
-				"def": 1003.06
+				"health": 9186.36,
+				"attack": 245.00,
+				"defense": 1003.06
 			},
 			"90": {
-				"hp": 9850.00,
-				"atk": 262.50,
-				"def": 1075.54
+				"health": 9850.00,
+				"attack": 262.50,
+				"defense": 1075.54
 			}
 		},
 		"element": "aero",
@@ -61,44 +61,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 1025.00,
-				"atk": 17.00,
-				"def": 82.00
+				"health": 1025.00,
+				"attack": 17.00,
+				"defense": 82.00
 			},
 			"20": {
-				"hp": 3349.70,
-				"atk": 56.61,
-				"def": 263.22
+				"health": 3349.70,
+				"attack": 56.61,
+				"defense": 263.22
 			},
 			"40": {
-				"hp": 5750.25,
-				"atk": 98.26,
-				"def": 451.82
+				"health": 5750.25,
+				"attack": 98.26,
+				"defense": 451.82
 			},
 			"50": {
-				"hp": 7308.25,
-				"atk": 125.46,
-				"def": 572.36
+				"health": 7308.25,
+				"attack": 125.46,
+				"defense": 572.36
 			},
 			"60": {
-				"hp": 8853.95,
-				"atk": 151.98,
-				"def": 693.15
+				"health": 8853.95,
+				"attack": 151.98,
+				"defense": 693.15
 			},
 			"70": {
-				"hp": 10401.70,
-				"atk": 175.61,
-				"def": 814.23
+				"health": 10401.70,
+				"attack": 175.61,
+				"defense": 814.23
 			},
 			"80": {
-				"hp": 11949.27,
-				"atk": 198.33,
-				"def": 934.67
+				"health": 11949.27,
+				"attack": 198.33,
+				"defense": 934.67
 			},
 			"90": {
-				"hp": 12812.50,
-				"atk": 212.50,
-				"def": 1002.20
+				"health": 12812.50,
+				"attack": 212.50,
+				"defense": 1002.20
 			}
 		},
 		"element": "glacio",
@@ -114,44 +114,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 840.00,
-				"atk": 35.00,
-				"def": 97.00
+				"health": 840.00,
+				"attack": 35.00,
+				"defense": 97.00
 			},
 			"20": {
-				"hp": 2745.12,
-				"atk": 116.55,
-				"def": 311.37
+				"health": 2745.12,
+				"attack": 116.55,
+				"defense": 311.37
 			},
 			"40": {
-				"hp": 4712.40,
-				"atk": 202.30,
-				"def": 534.47
+				"health": 4712.40,
+				"attack": 202.30,
+				"defense": 534.47
 			},
 			"50": {
-				"hp": 5989.20,
-				"atk": 258.30,
-				"def": 677.06
+				"health": 5989.20,
+				"attack": 258.30,
+				"defense": 677.06
 			},
 			"60": {
-				"hp": 7255.92,
-				"atk": 312.90,
-				"def": 819.94
+				"health": 7255.92,
+				"attack": 312.90,
+				"defense": 819.94
 			},
 			"70": {
-				"hp": 8524.32,
-				"atk": 361.55,
-				"def": 963.18
+				"health": 8524.32,
+				"attack": 361.55,
+				"defense": 963.18
 			},
 			"80": {
-				"hp": 9792.57,
-				"atk": 408.33,
-				"def": 1105.65
+				"health": 9792.57,
+				"attack": 408.33,
+				"defense": 1105.65
 			},
 			"90": {
-				"hp": 10500.00,
-				"atk": 437.50,
-				"def": 1185.53
+				"health": 10500.00,
+				"attack": 437.50,
+				"defense": 1185.53
 			}
 		},
 		"element": "electro",
@@ -167,44 +167,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "havoc",
@@ -220,44 +220,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -273,44 +273,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 727.00,
-				"atk": 24.00,
-				"def": 78.00
+				"health": 727.00,
+				"attack": 24.00,
+				"defense": 78.00
 			},
 			"20": {
-				"hp": 2375.84,
-				"atk": 79.92,
-				"def": 250.38
+				"health": 2375.84,
+				"attack": 79.92,
+				"defense": 250.38
 			},
 			"40": {
-				"hp": 4078.47,
-				"atk": 138.72,
-				"def": 429.78
+				"health": 4078.47,
+				"attack": 138.72,
+				"defense": 429.78
 			},
 			"50": {
-				"hp": 5183.51,
-				"atk": 177.12,
-				"def": 544.44
+				"health": 5183.51,
+				"attack": 177.12,
+				"defense": 544.44
 			},
 			"60": {
-				"hp": 6279.83,
-				"atk": 214.56,
-				"def": 659.33
+				"health": 6279.83,
+				"attack": 214.56,
+				"defense": 659.33
 			},
 			"70": {
-				"hp": 7377.60,
-				"atk": 247.92,
-				"def": 774.52
+				"health": 7377.60,
+				"attack": 247.92,
+				"defense": 774.52
 			},
 			"80": {
-				"hp": 8475.24,
-				"atk": 280.00,
-				"def": 889.08
+				"health": 8475.24,
+				"attack": 280.00,
+				"defense": 889.08
 			},
 			"90": {
-				"hp": 9087.50,
-				"atk": 300.00,
-				"def": 953.32
+				"health": 9087.50,
+				"attack": 300.00,
+				"defense": 953.32
 			}
 		},
 		"element": "fusion",
@@ -326,44 +326,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 755.00,
-				"atk": 21.00,
-				"def": 94.00
+				"health": 755.00,
+				"attack": 21.00,
+				"defense": 94.00
 			},
 			"20": {
-				"hp": 2467.34,
-				"atk": 69.93,
-				"def": 301.74
+				"health": 2467.34,
+				"attack": 69.93,
+				"defense": 301.74
 			},
 			"40": {
-				"hp": 4235.55,
-				"atk": 121.38,
-				"def": 517.94
+				"health": 4235.55,
+				"attack": 121.38,
+				"defense": 517.94
 			},
 			"50": {
-				"hp": 5383.15,
-				"atk": 154.98,
-				"def": 656.12
+				"health": 5383.15,
+				"attack": 154.98,
+				"defense": 656.12
 			},
 			"60": {
-				"hp": 6521.69,
-				"atk": 187.74,
-				"def": 794.58
+				"health": 6521.69,
+				"attack": 187.74,
+				"defense": 794.58
 			},
 			"70": {
-				"hp": 7661.74,
-				"atk": 216.93,
-				"def": 933.39
+				"health": 7661.74,
+				"attack": 216.93,
+				"defense": 933.39
 			},
 			"80": {
-				"hp": 8801.66,
-				"atk": 245.00,
-				"def": 1071.45
+				"health": 8801.66,
+				"attack": 245.00,
+				"defense": 1071.45
 			},
 			"90": {
-				"hp": 9437.50,
-				"atk": 262.50,
-				"def": 1148.87
+				"health": 9437.50,
+				"attack": 262.50,
+				"defense": 1148.87
 			}
 		},
 		"element": "havoc",
@@ -379,44 +379,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 841.00,
-				"atk": 34.00,
-				"def": 102.00
+				"health": 841.00,
+				"attack": 34.00,
+				"defense": 102.00
 			},
 			"20": {
-				"hp": 2748.39,
-				"atk": 113.22,
-				"def": 327.42
+				"health": 2748.39,
+				"attack": 113.22,
+				"defense": 327.42
 			},
 			"40": {
-				"hp": 4718.01,
-				"atk": 196.52,
-				"def": 562.02
+				"health": 4718.01,
+				"attack": 196.52,
+				"defense": 562.02
 			},
 			"50": {
-				"hp": 5996.33,
-				"atk": 250.920,
-				"def": 711.96
+				"health": 5996.33,
+				"attack": 250.920,
+				"defense": 711.96
 			},
 			"60": {
-				"hp": 7264.56,
-				"atk": 303.96,
-				"def": 862.21
+				"health": 7264.56,
+				"attack": 303.96,
+				"defense": 862.21
 			},
 			"70": {
-				"hp": 8534.47,
-				"atk": 351.22,
-				"def": 1012.83
+				"health": 8534.47,
+				"attack": 351.22,
+				"defense": 1012.83
 			},
 			"80": {
-				"hp": 9804.23,
-				"atk": 396.67,
-				"def": 1162.64
+				"health": 9804.23,
+				"attack": 396.67,
+				"defense": 1162.64
 			},
 			"90": {
-				"hp": 10512.50,
-				"atk": 425.00,
-				"def": 1246.64
+				"health": 10512.50,
+				"attack": 425.00,
+				"defense": 1246.64
 			}
 		},
 		"element": "fusion",
@@ -432,44 +432,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -485,44 +485,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 1129.00,
-				"atk": 27.00,
-				"def": 92.00
+				"health": 1129.00,
+				"attack": 27.00,
+				"defense": 92.00
 			},
 			"20": {
-				"hp": 3689.57,
-				"atk": 89.91,
-				"def": 295.32
+				"health": 3689.57,
+				"attack": 89.91,
+				"defense": 295.32
 			},
 			"40": {
-				"hp": 6333.69,
-				"atk": 156.06,
-				"def": 506.92
+				"health": 6333.69,
+				"attack": 156.06,
+				"defense": 506.92
 			},
 			"50": {
-				"hp": 8049.77,
-				"atk": 199.26,
-				"def": 642.16
+				"health": 8049.77,
+				"attack": 199.26,
+				"defense": 642.16
 			},
 			"60": {
-				"hp": 9752.3,
-				"atk": 241.38,
-				"def": 777.68
+				"health": 9752.3,
+				"attack": 241.38,
+				"defense": 777.68
 			},
 			"70": {
-				"hp": 1457.09,
-				"atk": 278.91,
-				"def": 913.53
+				"health": 1457.09,
+				"attack": 278.91,
+				"defense": 913.53
 			},
 			"80": {
-				"hp": 13161.68,
-				"atk": 315.00,
-				"def": 1048.66
+				"health": 13161.68,
+				"attack": 315.00,
+				"defense": 1048.66
 			},
 			"90": {
-				"hp": 14112.50,
-				"atk": 337.50,
-				"def": 1124.42
+				"health": 14112.50,
+				"attack": 337.50,
+				"defense": 1124.42
 			}
 		},
 		"element": "aero",
@@ -538,44 +538,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -591,44 +591,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 839.00,
-				"atk": 35.00,
-				"def": 97.00
+				"health": 839.00,
+				"attack": 35.00,
+				"defense": 97.00
 			},
 			"20": {
-				"hp": 2741.85,
-				"atk": 116.55,
-				"def": 311.37
+				"health": 2741.85,
+				"attack": 116.55,
+				"defense": 311.37
 			},
 			"40": {
-				"hp": 4706.79,
-				"atk": 202.30,
-				"def": 534.47
+				"health": 4706.79,
+				"attack": 202.30,
+				"defense": 534.47
 			},
 			"50": {
-				"hp": 5982.07,
-				"atk": 258.30,
-				"def": 677.06
+				"health": 5982.07,
+				"attack": 258.30,
+				"defense": 677.06
 			},
 			"60": {
-				"hp": 7247.28,
-				"atk": 312.90,
-				"def": 819.94
+				"health": 7247.28,
+				"attack": 312.90,
+				"defense": 819.94
 			},
 			"70": {
-				"hp": 8514.17,
-				"atk": 361.55,
-				"def": 963.18
+				"health": 8514.17,
+				"attack": 361.55,
+				"defense": 963.18
 			},
 			"80": {
-				"hp": 9780.91,
-				"atk": 408.33,
-				"def": 1105.65
+				"health": 9780.91,
+				"attack": 408.33,
+				"defense": 1105.65
 			},
 			"90": {
-				"hp": 10487.50,
-				"atk": 437.50,
-				"def": 1185.53
+				"health": 10487.50,
+				"attack": 437.50,
+				"defense": 1185.53
 			}
 		},
 		"element": "aero",
@@ -644,44 +644,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -697,44 +697,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 831.00,
-				"atk": 35.00,
-				"def": 99.00
+				"health": 831.00,
+				"attack": 35.00,
+				"defense": 99.00
 			},
 			"20": {
-				"hp": 2715.71,
-				"atk": 116.55,
-				"def": 317.79
+				"health": 2715.71,
+				"attack": 116.55,
+				"defense": 317.79
 			},
 			"40": {
-				"hp": 4661.91,
-				"atk": 202.30,
-				"def": 545.49
+				"health": 4661.91,
+				"attack": 202.30,
+				"defense": 545.49
 			},
 			"50": {
-				"hp": 5925.03,
-				"atk": 258.30,
-				"def": 691.02
+				"health": 5925.03,
+				"attack": 258.30,
+				"defense": 691.02
 			},
 			"60": {
-				"hp": 7178.18,
-				"atk": 312.90,
-				"def": 836.85
+				"health": 7178.18,
+				"attack": 312.90,
+				"defense": 836.85
 			},
 			"70": {
-				"hp": 8432.99,
-				"atk": 361.55,
-				"def": 983.04
+				"health": 8432.99,
+				"attack": 361.55,
+				"defense": 983.04
 			},
 			"80": {
-				"hp": 9687.65,
-				"atk": 408.33,
-				"def": 1128.45
+				"health": 9687.65,
+				"attack": 408.33,
+				"defense": 1128.45
 			},
 			"90": {
-				"hp": 10387.50,
-				"atk": 437.50,
-				"def": 1209.98
+				"health": 10387.50,
+				"attack": 437.50,
+				"defense": 1209.98
 			}
 		},
 		"element": "glacio",
@@ -750,44 +750,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 802.00,
-				"atk": 20.00,
-				"def": 93.00
+				"health": 802.00,
+				"attack": 20.00,
+				"defense": 93.00
 			},
 			"20": {
-				"hp": 2620.94,
-				"atk": 66.60,
-				"def": 298.53
+				"health": 2620.94,
+				"attack": 66.60,
+				"defense": 298.53
 			},
 			"40": {
-				"hp": 4499.22,
-				"atk": 115.60,
-				"def": 512.43
+				"health": 4499.22,
+				"attack": 115.60,
+				"defense": 512.43
 			},
 			"50": {
-				"hp": 5718.26,
-				"atk": 147.60,
-				"def": 649.14
+				"health": 5718.26,
+				"attack": 147.60,
+				"defense": 649.14
 			},
 			"60": {
-				"hp": 6927.68,
-				"atk": 178.80,
-				"def": 786.13
+				"health": 6927.68,
+				"attack": 178.80,
+				"defense": 786.13
 			},
 			"70": {
-				"hp": 8138.70,
-				"atk": 206.60,
-				"def": 923.46
+				"health": 8138.70,
+				"attack": 206.60,
+				"defense": 923.46
 			},
 			"80": {
-				"hp": 9349.57,
-				"atk": 233.33,
-				"def": 1060.05
+				"health": 9349.57,
+				"attack": 233.33,
+				"defense": 1060.05
 			},
 			"90": {
-				"hp": 10025.00,
-				"atk": 250.00,
-				"def": 1136.65
+				"health": 10025.00,
+				"attack": 250.00,
+				"defense": 1136.65
 			}
 		},
 		"element": "fusion",
@@ -803,44 +803,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -856,44 +856,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 912.00,
-				"atk": 30.00,
-				"def": 112.00
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
 			},
 			"20": {
-				"hp": 2980.42,
-				"atk": 99.90,
-				"def": 359.52
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
 			},
 			"40": {
-				"hp": 5116.32,
-				"atk": 173.40,
-				"def": 617.12
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
 			},
 			"50": {
-				"hp": 6502.56,
-				"atk": 221.40,
-				"def": 781.76
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
 			},
 			"60": {
-				"hp": 7877.86,
-				"atk": 268.20,
-				"def": 946.74
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
 			},
 			"70": {
-				"hp": 9254.98,
-				"atk": 309.90,
-				"def": 1112.13
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
 			},
 			"80": {
-				"hp": 10631.93,
-				"atk": 350.00,
-				"def": 1276.63
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
 			},
 			"90": {
-				"hp": 11400.00,
-				"atk": 375.00,
-				"def": 1368.86
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
 			}
 		},
 		"element": "spectro",
@@ -909,44 +909,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 912.00,
-				"atk": 30.00,
-				"def": 112.00
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
 			},
 			"20": {
-				"hp": 2980.42,
-				"atk": 99.90,
-				"def": 359.52
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
 			},
 			"40": {
-				"hp": 5116.32,
-				"atk": 173.40,
-				"def": 617.12
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
 			},
 			"50": {
-				"hp": 6502.56,
-				"atk": 221.40,
-				"def": 781.76
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
 			},
 			"60": {
-				"hp": 7877.86,
-				"atk": 268.20,
-				"def": 946.74
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
 			},
 			"70": {
-				"hp": 9254.98,
-				"atk": 309.90,
-				"def": 1112.13
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
 			},
 			"80": {
-				"hp": 10631.93,
-				"atk": 350.00,
-				"def": 1276.63
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
 			},
 			"90": {
-				"hp": 11400.00,
-				"atk": 375.00,
-				"def": 1368.86
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
 			}
 		},
 		"element": "havoc",
@@ -962,44 +962,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 912.00,
-				"atk": 30.00,
-				"def": 112.00
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
 			},
 			"20": {
-				"hp": 2980.42,
-				"atk": 99.90,
-				"def": 359.52
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
 			},
 			"40": {
-				"hp": 5116.32,
-				"atk": 173.40,
-				"def": 617.12
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
 			},
 			"50": {
-				"hp": 6502.56,
-				"atk": 221.40,
-				"def": 781.76
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
 			},
 			"60": {
-				"hp": 7877.86,
-				"atk": 268.20,
-				"def": 946.74
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
 			},
 			"70": {
-				"hp": 9254.98,
-				"atk": 309.90,
-				"def": 1112.13
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
 			},
 			"80": {
-				"hp": 10631.93,
-				"atk": 350.00,
-				"def": 1276.63
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
 			},
 			"90": {
-				"hp": 11400.00,
-				"atk": 375.00,
-				"def": 1368.86
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
 			}
 		},
 		"element": "none",
@@ -1015,44 +1015,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 805.00,
-				"atk": 22.00,
-				"def": 77.00
+				"health": 805.00,
+				"attack": 22.00,
+				"defense": 77.00
 			},
 			"20": {
-				"hp": 2630.74,
-				"atk": 73.26,
-				"def": 247.17
+				"health": 2630.74,
+				"attack": 73.26,
+				"defense": 247.17
 			},
 			"40": {
-				"hp": 4516.05,
-				"atk": 127.16,
-				"def": 424.27
+				"health": 4516.05,
+				"attack": 127.16,
+				"defense": 424.27
 			},
 			"50": {
-				"hp": 5739.65,
-				"atk": 162.36,
-				"def": 537.46
+				"health": 5739.65,
+				"attack": 162.36,
+				"defense": 537.46
 			},
 			"60": {
-				"hp": 6953.59,
-				"atk": 196.68,
-				"def": 650.88
+				"health": 6953.59,
+				"attack": 196.68,
+				"defense": 650.88
 			},
 			"70": {
-				"hp": 8169.14,
-				"atk": 227.26,
-				"def": 764.59
+				"health": 8169.14,
+				"attack": 227.26,
+				"defense": 764.59
 			},
 			"80": {
-				"hp": 9384.55,
-				"atk": 256.67,
-				"def": 877.68
+				"health": 9384.55,
+				"attack": 256.67,
+				"defense": 877.68
 			},
 			"90": {
-				"hp": 10062.50,
-				"atk": 275.00,
-				"def": 941.09
+				"health": 10062.50,
+				"attack": 275.00,
+				"defense": 941.09
 			}
 		},
 		"element": "glacio",
@@ -1068,44 +1068,44 @@
 		"rarity": 0,
 		"stats": {
 			"1": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"20": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"40": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"50": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"60": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"70": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"80": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			},
 			"90": {
-				"hp": 0,
-				"atk": 0,
-				"def": 0
+				"health": 0,
+				"attack": 0,
+				"defense": 0
 			}
 		},
 		"element": "none",
@@ -1121,44 +1121,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 716.00,
-				"atk": 18.00,
-				"def": 128.00
+				"health": 716.00,
+				"attack": 18.00,
+				"defense": 128.00
 			},
 			"20": {
-				"hp": 2339.89,
-				"atk": 59.94,
-				"def": 410.88
+				"health": 2339.89,
+				"attack": 59.94,
+				"defense": 410.88
 			},
 			"40": {
-				"hp": 4016.76,
-				"atk": 104.04,
-				"def": 705.28
+				"health": 4016.76,
+				"attack": 104.04,
+				"defense": 705.28
 			},
 			"50": {
-				"hp": 5105.08,
-				"atk": 132.84,
-				"def": 893.44
+				"health": 5105.08,
+				"attack": 132.84,
+				"defense": 893.44
 			},
 			"60": {
-				"hp": 6184.81,
-				"atk": 160.92,
-				"def": 1081.98
+				"health": 6184.81,
+				"attack": 160.92,
+				"defense": 1081.98
 			},
 			"70": {
-				"hp": 7265.97,
-				"atk": 185.94,
-				"def": 1271.00
+				"health": 7265.97,
+				"attack": 185.94,
+				"defense": 1271.00
 			},
 			"80": {
-				"hp": 8347.00,
-				"atk": 210.00,
-				"def": 1459.00
+				"health": 8347.00,
+				"attack": 210.00,
+				"defense": 1459.00
 			},
 			"90": {
-				"hp": 8950.00,
-				"atk": 225.00,
-				"def": 1564.42
+				"health": 8950.00,
+				"attack": 225.00,
+				"defense": 1564.42
 			}
 		},
 		"element": "havoc",
@@ -1174,44 +1174,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 1139.00,
-				"atk": 27.00,
-				"def": 90.00
+				"health": 1139.00,
+				"attack": 27.00,
+				"defense": 90.00
 			},
 			"20": {
-				"hp": 3722.25,
-				"atk": 89.91,
-				"def": 288.90
+				"health": 3722.25,
+				"attack": 89.91,
+				"defense": 288.90
 			},
 			"40": {
-				"hp": 6389.79,
-				"atk": 156.06,
-				"def": 495.90
+				"health": 6389.79,
+				"attack": 156.06,
+				"defense": 495.90
 			},
 			"50": {
-				"hp": 8121.07,
-				"atk": 199.26,
-				"def": 628.20
+				"health": 8121.07,
+				"attack": 199.26,
+				"defense": 628.20
 			},
 			"60": {
-				"hp": 9838.68,
-				"atk": 241.38,
-				"def": 760.77
+				"health": 9838.68,
+				"attack": 241.38,
+				"defense": 760.77
 			},
 			"70": {
-				"hp": 11558.57,
-				"atk": 278.91,
-				"def": 893.67
+				"health": 11558.57,
+				"attack": 278.91,
+				"defense": 893.67
 			},
 			"80": {
-				"hp": 13278.26,
-				"atk": 315.00,
-				"def": 1025.86
+				"health": 13278.26,
+				"attack": 315.00,
+				"defense": 1025.86
 			},
 			"90": {
-				"hp": 14237.50,
-				"atk": 337.50,
-				"def": 1099.98
+				"health": 14237.50,
+				"attack": 337.50,
+				"defense": 1099.98
 			}
 		},
 		"element": "spectro",
@@ -1227,44 +1227,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 816.00,
-				"atk": 20.00,
-				"def": 90.00
+				"health": 816.00,
+				"attack": 20.00,
+				"defense": 90.00
 			},
 			"20": {
-				"hp": 2666.69,
-				"atk": 66.60,
-				"def": 288.90
+				"health": 2666.69,
+				"attack": 66.60,
+				"defense": 288.90
 			},
 			"40": {
-				"hp": 4577.76,
-				"atk": 115.60,
-				"def": 495.90
+				"health": 4577.76,
+				"attack": 115.60,
+				"defense": 495.90
 			},
 			"50": {
-				"hp": 5818.08,
-				"atk": 147.60,
-				"def": 628.20
+				"health": 5818.08,
+				"attack": 147.60,
+				"defense": 628.20
 			},
 			"60": {
-				"hp": 7048.61,
-				"atk": 178.80,
-				"def": 760.77
+				"health": 7048.61,
+				"attack": 178.80,
+				"defense": 760.77
 			},
 			"70": {
-				"hp": 8280.77,
-				"atk": 206.60,
-				"def": 893.67
+				"health": 8280.77,
+				"attack": 206.60,
+				"defense": 893.67
 			},
 			"80": {
-				"hp": 9512.78,
-				"atk": 233.33,
-				"def": 1025.86
+				"health": 9512.78,
+				"attack": 233.33,
+				"defense": 1025.86
 			},
 			"90": {
-				"hp": 10200.00,
-				"atk": 250.00,
-				"def": 1099.98
+				"health": 10200.00,
+				"attack": 250.00,
+				"defense": 1099.98
 			}
 		},
 		"element": "aero",
@@ -1280,44 +1280,44 @@
 		"rarity": 5,
 		"stats": {
 			"1": {
-				"hp": 880.00,
-				"atk": 32.00,
-				"def": 105.00
+				"health": 880.00,
+				"attack": 32.00,
+				"defense": 105.00
 			},
 			"20": {
-				"hp": 2875.84,
-				"atk": 106.56,
-				"def": 337.05
+				"health": 2875.84,
+				"attack": 106.56,
+				"defense": 337.05
 			},
 			"40": {
-				"hp": 4936.84,
-				"atk": 184.96,
-				"def": 578.55
+				"health": 4936.84,
+				"attack": 184.96,
+				"defense": 578.55
 			},
 			"50": {
-				"hp": 6274.40,
-				"atk": 236.16,
-				"def": 732.90
+				"health": 6274.40,
+				"attack": 236.16,
+				"defense": 732.90
 			},
 			"60": {
-				"hp": 7601.44,
-				"atk": 286.08,
-				"def": 887.57
+				"health": 7601.44,
+				"attack": 286.08,
+				"defense": 887.57
 			},
 			"70": {
-				"hp": 8930.24,
-				"atk": 330.56,
-				"def": 1042.62
+				"health": 8930.24,
+				"attack": 330.56,
+				"defense": 1042.62
 			},
 			"80": {
-				"hp": 10258.88,
-				"atk": 373.33,
-				"def": 1196.84
+				"health": 10258.88,
+				"attack": 373.33,
+				"defense": 1196.84
 			},
 			"90": {
-				"hp": 11000.00,
-				"atk": 400.00,
-				"def": 1283.31
+				"health": 11000.00,
+				"attack": 400.00,
+				"defense": 1283.31
 			}
 		},
 		"element": "electro",
@@ -1333,44 +1333,44 @@
 		"rarity": 4,
 		"stats": {
 			"1": {
-				"hp": 682.00,
-				"atk": 18.00,
-				"def": 134.00
+				"health": 682.00,
+				"attack": 18.00,
+				"defense": 134.00
 			},
 			"20": {
-				"hp": 1773.20,
-				"atk": 46.80,
-				"def": 343.04
+				"health": 1773.20,
+				"attack": 46.80,
+				"defense": 343.04
 			},
 			"40": {
-				"hp": 3826.02,
-				"atk": 104.04,
-				"def": 738.34
+				"health": 3826.02,
+				"attack": 104.04,
+				"defense": 738.34
 			},
 			"50": {
-				"hp": 4862.66,
-				"atk": 132.84,
-				"def": 935.32
+				"health": 4862.66,
+				"attack": 132.84,
+				"defense": 935.32
 			},
 			"60": {
-				"hp": 5891.12,
-				"atk": 160.92,
-				"def": 1132.70
+				"health": 5891.12,
+				"attack": 160.92,
+				"defense": 1132.70
 			},
 			"70": {
-				"hp": 6920.94,
-				"atk": 185.94,
-				"def": 1330.58
+				"health": 6920.94,
+				"attack": 185.94,
+				"defense": 1330.58
 			},
 			"80": {
-				"hp": 7950.63,
-				"atk": 210.00,
-				"def": 1527.39
+				"health": 7950.63,
+				"attack": 210.00,
+				"defense": 1527.39
 			},
 			"90": {
-				"hp": 8525.00,
-				"atk": 225.00,
-				"def": 1637.75
+				"health": 8525.00,
+				"attack": 225.00,
+				"defense": 1637.75
 			}
 		},
 		"element": "electro",

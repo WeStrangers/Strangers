@@ -28,10 +28,6 @@
 				],
 				"button": "Персонажи"
 			},
-			"timer": {
-				"title": "Таймер",
-				"description": "До выхода игры осталось:"
-			},
 			"info": {
 				"title": "Информация",
 				"description": [
@@ -47,6 +43,32 @@
 		}
 	},
 	"resonators": {
+		"resonator": {
+			"introduction": {
+				"title": "Предисловие"
+			},
+			"stats": {
+				"title": "Статы",
+				"level": "Уровень:"
+			}
+		},
+		"elements": {
+			"title": "Элементы",
+			"attribute": "{element} атрибут"
+		},
+		"stats": {
+			"health": "ХП",
+			"attack": "АТК",
+			"defense": "ДЕФ"
+		},
+		"weapons": {
+			"title": "Оружие",
+			"sword": "Меч",
+			"broadblade": "Клеймор",
+			"gauntlet": "Перчатка",
+			"pistols": "Пистолеты",
+			"rectifier": "Устранитель"
+		},
 		"list": {
 			"icon_alt": "Изображение {resonator}"
 		}

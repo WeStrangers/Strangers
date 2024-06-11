@@ -16,9 +16,7 @@
 
 					<div class="flex flex-col rounded-xl z-10 space-y-1 p-2 bg-slate-900">
 						<div class="flex justify-between items-end space-x-2">
-							<p
-								class="text-4xl"
-							>
+							<p class="text-4xl">
 								{{ $t(resonator.name) }}
 							</p>
 							<div
@@ -30,12 +28,19 @@
 								<p class="pe-2" :class="`text-[${element.color}]`">
 									{{ $t(element.i18n) }}
 								</p>
+								<!-- <div class="text-[#97d3ba] border-[#c15d5d] text-[#c5b065] text-[#67bcdb] text-[#e649a6] text-[#a965c5]" /> -->
+								<!-- <div class="border-[#97d3ba] border-[#c15d5d] border-[#c5b065] border-[#67bcdb] border-[#e649a6] border-[#a965c5]" /> -->
 							</div>
 						</div>
 
-						<p class="w-fit">{{ $t(resonator.subname) }}</p>
-						<!-- <div class="text-[#97d3ba] border-[#c15d5d] text-[#c5b065] text-[#67bcdb] text-[#e649a6] text-[#a965c5]" /> -->
-						<!-- <div class="border-[#97d3ba] border-[#c15d5d] border-[#c5b065] border-[#67bcdb] border-[#e649a6] border-[#a965c5]" /> -->
+						<div class="flex space-x-2">
+							<p class="w-fit">{{ $t(resonator.subname) }}</p>
+							<p v-if="resonator.rarity === 5" class="text-[#ffe65a]">★★★★★</p>
+							<p v-else-if="resonator.rarity === 4" class="text-[#ca6dff]">★★★★</p>
+							<p v-else-if="resonator.rarity === 3" class="text-[#00b4ff]">★★★</p>
+							<p v-else-if="resonator.rarity === 2" class="text-[#16ec5a]">★★</p>
+							<p v-else-if="resonator.rarity === 1" class="text-white">★</p>
+						</div>
 
 						<div>
 
@@ -44,17 +49,17 @@
 				</div>
 
 				<div class="flex flex-col space-y-1">
-					<h3 class="text-xl">Introduction</h3>
+					<h3 class="text-xl">{{ $t('resonators.resonator.introduction.title') }}</h3>
 					<div class="p-2 rounded shadow border-2 border-slate-800 bg-slate-900">
 						<p class="w-fit hyphens-auto" :lang="i18n.global.locale">{{ $t(resonator.description) }}</p>
 					</div>
 				</div>
 			
 				<div class="flex flex-col w-full space-y-1">
-					<h3 class="text-xl">Stats</h3>
+					<h3 class="text-xl">{{ $t('resonators.resonator.stats.title') }}</h3>
 					<div class="rounded shadow border-2 p-2 space-y-2 border-slate-800 bg-slate-900">
 						<div class="flex justify-center items-center w-full space-x-2">
-							<p>Level:</p>
+							<p>{{ $t('resonators.resonator.stats.level') }}</p>
 							<select class="flex-1 rounded px-2 py-1 bg-slate-800" v-model="selected">
 							  <option v-for="(el, index) in [1, 20, 40, 50, 60, 70, 80, 90]" :key="index">{{ el }}</option>
 							</select>
@@ -62,10 +67,13 @@
 
 						<!-- @vue-skip -->
 						<div
-							class="flex justify-between rounded px-1 py-0.5 even:bg-slate-800"
+							class="flex justify-between items-center rounded px-1 py-0.5 even:bg-slate-800"
 							v-for="(el, index) in resonator.stats[Number(selected)]" :key="index"
 						>
-							<p>{{ $t(`resonators.stats.${index}`) }}</p>
+							<div class="flex items-center space-x-1">
+								<img class="w-6 h-6" :src="attributes[`${index}`].icon" :alt="index">
+								<p>{{ $t(`resonators.stats.${index}`) }}</p>
+							</div>
 							<p>{{ Math.round(Number(el)) }}</p>
 						</div>
 					</div>
@@ -85,6 +93,7 @@
 import router from '../../../router';
 import i18n from '../../../i18n';
 
+import attributes from '../../../assets/attributes.json';
 import elements from '../../../assets/elements.json';
 import weapons from '../../../assets/weapons.json';
 
