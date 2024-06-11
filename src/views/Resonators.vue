@@ -1,7 +1,7 @@
 <template>
-  <div class="relative">
+  <div class="absolute inset-0">
 		<div
-			class="flex flex-col justify-start items-center *:p-2"
+			class="flex flex-col justify-start items-center min-h-full *:p-2 p-4 inset-0"
 			v-show="$route.fullPath === '/resonators' || $route.fullPath === '/resonators/'"
 		>
 			<Filter />
@@ -11,9 +11,9 @@
 				<Card v-for="(resonator, index) in resonators" :key="index" :resonator="resonator" :filters="filters" :to="`/resonators/${index}`" />
 			</div>
 		</div>
-		<router-view class="absolute" v-slot="{ Component }">
+		<router-view v-slot="{ Component }">
 			<transition>
-				<component class="p-4" :is="Component" />
+				<component :is="Component" />
 			</transition>
 		</router-view>
 	</div>
@@ -40,12 +40,28 @@ const filters: Ref<{
 });
 provide('filters', filters);
 
+type statsType = {
+	"hp": number;
+	"atk": number;
+	"def": number;
+};
+
 const resonator: Ref<{
 	name: string;
 	description: string;
 	icon: string;
 	portrait: string;
 	rarity: 5 | 4;
+	stats: {
+		"1": statsType;
+		"20": statsType;
+		"40": statsType;
+		"50": statsType;
+		"60": statsType;
+		"70": statsType;
+		"80": statsType;
+		"90": statsType;
+	};
 	element: keyof Elements;
 	weapon: keyof Weapons;
 	show: boolean;
@@ -54,13 +70,5 @@ provide('resonator', resonator);
 </script>
 
 <style scoped>
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.25s ease;
-}
 
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
-}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4">
+	<div class="columns-1 lg:columns-2 xl:columns-3 p-4">
 		<Card>
 			<h1 class="text-xl">{{ $t('main.home.welcome.title') }}</h1>
 			<hr class="w-full border-slate-800">
@@ -22,24 +22,8 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
-
 import Card from '../components/main/home/Card.vue';
 import Button from '../components/main/home/Button.vue';
-
-const timer: Ref<Date> = ref(new Date());
-const timerEnd = new Date(2024, 5, 23, 5);
-
-setInterval(() => {
-	timer.value = new Date();
-}, 1000)
-
-function getTimer(): string {
-	let hours = `${25 - timer.value.getUTCHours()}`;
-	let minutes = timer.value.getUTCMinutes() !== 0 ? 60 - timer.value.getUTCMinutes() < 10 ? `0${60 - timer.value.getUTCMinutes()}` : `${60 - timer.value.getUTCMinutes()}` : `00`;
-	let seconds = timer.value.getUTCSeconds() !== 0 ? 60 - timer.value.getUTCSeconds() < 10 ? `0${60 - timer.value.getUTCSeconds()}` : `${60 - timer.value.getUTCSeconds()}` : `00`;
-	return `${hours}:${minutes}:${seconds}`;
-};
 </script>
 
 <style scoped>

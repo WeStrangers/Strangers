@@ -1,14 +1,12 @@
 <template>
-  <div
-		class="fixed inset-0 flex flex-col items-center bg-slate-950"
-	>
-		<div class="flex flex-row-reverse w-full px-1">
+  <div class="flex flex-col items-center min-h-max p-4 bg-slate-950">
+		<div class="flex flex-row-reverse w-full px-1 z-10">
 			<router-link to="/resonators">
 				<span class="icon-fill p-1">close</span>
 			</router-link>
 		</div>
-		<div class="relative w-full h-full" v-if="resonator">
-			<div class="relative flex flex-col justify-center items-center w-full lg:w-8/12 space-y-2 p-2 font-semibold z-10">
+		<div class="w-full" v-if="resonator">
+			<div class="flex flex-col justify-center items-center w-full lg:w-8/12 space-y-2 p-2 font-semibold *:z-10">
 				<div class="flex flex-wrap justify-center items-center *:m-1">
 					<img
 						class="w-48 h-48 rounded-b-[calc(12rem/2)]"
@@ -47,14 +45,35 @@
 
 				<div class="flex flex-col space-y-1">
 					<h3 class="text-xl">Introduction</h3>
-					<div class="rounded z-10 p-2 shadow bg-slate-900">
-						<p class="w-fit">{{ $t(resonator.description) }}</p>
+					<div class="p-2 rounded shadow border-2 border-slate-800 bg-slate-900">
+						<p class="w-fit hyphens-auto" :lang="i18n.global.locale">{{ $t(resonator.description) }}</p>
+					</div>
+				</div>
+			
+				<div class="flex flex-col w-full space-y-1">
+					<h3 class="text-xl">Stats</h3>
+					<div class="rounded shadow border-2 p-2 space-y-2 border-slate-800 bg-slate-900">
+						<div class="flex justify-center items-center w-full space-x-2">
+							<p>Level:</p>
+							<select class="flex-1 rounded px-2 py-1 bg-slate-800" v-model="selected">
+							  <option v-for="(el, index) in [1, 20, 40, 50, 60, 70, 80, 90]" :key="index">{{ el }}</option>
+							</select>
+						</div>
+
+						<!-- @vue-skip -->
+						<div
+							class="flex justify-between rounded px-1 py-0.5 even:bg-slate-800"
+							v-for="(el, index) in resonator.stats[Number(selected)]" :key="index"
+						>
+							<p>{{ $t(`resonators.stats.${index}`) }}</p>
+							<p>{{ Math.round(Number(el)) }}</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<img
-				class="absolute -right-2 top-0 max-h-[90vh] opacity-10"
+				class="absolute top-0 right-0 max-h-[90vh] opacity-10"
 				:src="resonator.portrait"
 				alt=""
 			>
@@ -64,11 +83,22 @@
 
 <script setup lang="ts">
 import router from '../../../router';
+import i18n from '../../../i18n';
 
 import elements from '../../../assets/elements.json';
 import weapons from '../../../assets/weapons.json';
 
 import resonators from '../../../assets/resonators.json';
+import { ref } from 'vue';
+
+const selected = ref("90");
+
+type statsType = {
+	"hp": number;
+	"atk": number;
+	"def": number;
+};
+
 type IResonator = {
 	name: string;
 	subname: string;
@@ -76,6 +106,16 @@ type IResonator = {
 	icon: string;
 	portrait: string;
 	rarity: 5 | 4;
+	stats: {
+		"1": statsType;
+		"20": statsType;
+		"40": statsType;
+		"50": statsType;
+		"60": statsType;
+		"70": statsType;
+		"80": statsType;
+		"90": statsType;
+	};
 	element: keyof typeof elements;
 	weapon: keyof typeof weapons;
 	show: boolean;

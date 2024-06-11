@@ -6,6 +6,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_12_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_qiushui_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 788,
+				"atk": 21,
+				"def": 88
+			},
+			"20": {
+				"hp": 2575.18,
+				"atk": 69.93,
+				"def": 282.48
+			},
+			"40": {
+				"hp": 4420.68,
+				"atk": 121.38,
+				"def": 484.88
+			},
+			"50": {
+				"hp": 5618.44,
+				"atk": 154.98,
+				"def": 614.24
+			},
+			"60": {
+				"hp": 6806.74,
+				"atk": 187.74,
+				"def": 743.86
+			},
+			"70": {
+				"hp": 7996.62,
+				"atk": 216.93,
+				"def": 873.81
+			},
+			"80": {
+				"hp": 9186.36,
+				"atk": 245.00,
+				"def": 1003.06
+			},
+			"90": {
+				"hp": 9850.00,
+				"atk": 262.50,
+				"def": 1075.54
+			}
+		},
 		"element": "aero",
 		"weapon": "pistols",
 		"show": true
@@ -17,6 +59,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_6_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_bailian_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 1025.00,
+				"atk": 17.00,
+				"def": 82.00
+			},
+			"20": {
+				"hp": 3349.70,
+				"atk": 56.61,
+				"def": 263.22
+			},
+			"40": {
+				"hp": 5750.25,
+				"atk": 98.26,
+				"def": 451.82
+			},
+			"50": {
+				"hp": 7308.25,
+				"atk": 125.46,
+				"def": 572.36
+			},
+			"60": {
+				"hp": 8853.95,
+				"atk": 151.98,
+				"def": 693.15
+			},
+			"70": {
+				"hp": 10401.70,
+				"atk": 175.61,
+				"def": 814.23
+			},
+			"80": {
+				"hp": 11949.27,
+				"atk": 198.33,
+				"def": 934.67
+			},
+			"90": {
+				"hp": 12812.50,
+				"atk": 212.50,
+				"def": 1002.20
+			}
+		},
 		"element": "glacio",
 		"weapon": "rectifier",
 		"show": true
@@ -28,6 +112,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_18_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_kakaluo_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 840.00,
+				"atk": 35.00,
+				"def": 97.00
+			},
+			"20": {
+				"hp": 2745.12,
+				"atk": 116.55,
+				"def": 311.37
+			},
+			"40": {
+				"hp": 4712.40,
+				"atk": 202.30,
+				"def": 534.47
+			},
+			"50": {
+				"hp": 5989.20,
+				"atk": 258.30,
+				"def": 677.06
+			},
+			"60": {
+				"hp": 7255.92,
+				"atk": 312.90,
+				"def": 819.94
+			},
+			"70": {
+				"hp": 8524.32,
+				"atk": 361.55,
+				"def": 963.18
+			},
+			"80": {
+				"hp": 9792.57,
+				"atk": 408.33,
+				"def": 1105.65
+			},
+			"90": {
+				"hp": 10500.00,
+				"atk": 437.50,
+				"def": 1185.53
+			}
+		},
 		"element": "electro",
 		"weapon": "broadblade",
 		"show": true
@@ -39,6 +165,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_16_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_chun_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "havoc",
 		"weapon": "sword",
 		"show": false
@@ -50,6 +218,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -61,6 +271,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_2_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_maxiaofang_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 727.00,
+				"atk": 24.00,
+				"def": 78.00
+			},
+			"20": {
+				"hp": 2375.84,
+				"atk": 79.92,
+				"def": 250.38
+			},
+			"40": {
+				"hp": 4078.47,
+				"atk": 138.72,
+				"def": 429.78
+			},
+			"50": {
+				"hp": 5183.51,
+				"atk": 177.12,
+				"def": 544.44
+			},
+			"60": {
+				"hp": 6279.83,
+				"atk": 214.56,
+				"def": 659.33
+			},
+			"70": {
+				"hp": 7377.60,
+				"atk": 247.92,
+				"def": 774.52
+			},
+			"80": {
+				"hp": 8475.24,
+				"atk": 280.00,
+				"def": 889.08
+			},
+			"90": {
+				"hp": 9087.50,
+				"atk": 300.00,
+				"def": 953.32
+			}
+		},
 		"element": "fusion",
 		"weapon": "pistols",
 		"show": true
@@ -72,6 +324,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_10_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_micai_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 755.00,
+				"atk": 21.00,
+				"def": 94.00
+			},
+			"20": {
+				"hp": 2467.34,
+				"atk": 69.93,
+				"def": 301.74
+			},
+			"40": {
+				"hp": 4235.55,
+				"atk": 121.38,
+				"def": 517.94
+			},
+			"50": {
+				"hp": 5383.15,
+				"atk": 154.98,
+				"def": 656.12
+			},
+			"60": {
+				"hp": 6521.69,
+				"atk": 187.74,
+				"def": 794.58
+			},
+			"70": {
+				"hp": 7661.74,
+				"atk": 216.93,
+				"def": 933.39
+			},
+			"80": {
+				"hp": 8801.66,
+				"atk": 245.00,
+				"def": 1071.45
+			},
+			"90": {
+				"hp": 9437.50,
+				"atk": 262.50,
+				"def": 1148.87
+			}
+		},
 		"element": "havoc",
 		"weapon": "sword",
 		"show": true
@@ -83,6 +377,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_8_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_anke_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 841.00,
+				"atk": 34.00,
+				"def": 102.00
+			},
+			"20": {
+				"hp": 2748.39,
+				"atk": 113.22,
+				"def": 327.42
+			},
+			"40": {
+				"hp": 4718.01,
+				"atk": 196.52,
+				"def": 562.02
+			},
+			"50": {
+				"hp": 5996.33,
+				"atk": 250.920,
+				"def": 711.96
+			},
+			"60": {
+				"hp": 7264.56,
+				"atk": 303.96,
+				"def": 862.21
+			},
+			"70": {
+				"hp": 8534.47,
+				"atk": 351.22,
+				"def": 1012.83
+			},
+			"80": {
+				"hp": 9804.23,
+				"atk": 396.67,
+				"def": 1162.64
+			},
+			"90": {
+				"hp": 10512.50,
+				"atk": 425.00,
+				"def": 1246.64
+			}
+		},
 		"element": "fusion",
 		"weapon": "rectifier",
 		"show": true
@@ -94,6 +430,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -105,6 +483,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_23_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jiexin_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 1129.00,
+				"atk": 27.00,
+				"def": 92.00
+			},
+			"20": {
+				"hp": 3689.57,
+				"atk": 89.91,
+				"def": 295.32
+			},
+			"40": {
+				"hp": 6333.69,
+				"atk": 156.06,
+				"def": 506.92
+			},
+			"50": {
+				"hp": 8049.77,
+				"atk": 199.26,
+				"def": 642.16
+			},
+			"60": {
+				"hp": 9752.3,
+				"atk": 241.38,
+				"def": 777.68
+			},
+			"70": {
+				"hp": 1457.09,
+				"atk": 278.91,
+				"def": 913.53
+			},
+			"80": {
+				"hp": 13161.68,
+				"atk": 315.00,
+				"def": 1048.66
+			},
+			"90": {
+				"hp": 14112.50,
+				"atk": 337.50,
+				"def": 1124.42
+			}
+		},
 		"element": "aero",
 		"weapon": "gauntlet",
 		"show": true
@@ -116,6 +536,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -127,6 +589,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_11_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jiyan_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 839.00,
+				"atk": 35.00,
+				"def": 97.00
+			},
+			"20": {
+				"hp": 2741.85,
+				"atk": 116.55,
+				"def": 311.37
+			},
+			"40": {
+				"hp": 4706.79,
+				"atk": 202.30,
+				"def": 534.47
+			},
+			"50": {
+				"hp": 5982.07,
+				"atk": 258.30,
+				"def": 677.06
+			},
+			"60": {
+				"hp": 7247.28,
+				"atk": 312.90,
+				"def": 819.94
+			},
+			"70": {
+				"hp": 8514.17,
+				"atk": 361.55,
+				"def": 963.18
+			},
+			"80": {
+				"hp": 9780.91,
+				"atk": 408.33,
+				"def": 1105.65
+			},
+			"90": {
+				"hp": 10487.50,
+				"atk": 437.50,
+				"def": 1185.53
+			}
+		},
 		"element": "aero",
 		"weapon": "broadblade",
 		"show": true
@@ -138,6 +642,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -149,6 +695,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_14_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_lingyang_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 831.00,
+				"atk": 35.00,
+				"def": 99.00
+			},
+			"20": {
+				"hp": 2715.71,
+				"atk": 116.55,
+				"def": 317.79
+			},
+			"40": {
+				"hp": 4661.91,
+				"atk": 202.30,
+				"def": 545.49
+			},
+			"50": {
+				"hp": 5925.03,
+				"atk": 258.30,
+				"def": 691.02
+			},
+			"60": {
+				"hp": 7178.18,
+				"atk": 312.90,
+				"def": 836.85
+			},
+			"70": {
+				"hp": 8432.99,
+				"atk": 361.55,
+				"def": 983.04
+			},
+			"80": {
+				"hp": 9687.65,
+				"atk": 408.33,
+				"def": 1128.45
+			},
+			"90": {
+				"hp": 10387.50,
+				"atk": 437.50,
+				"def": 1209.98
+			}
+		},
 		"element": "glacio",
 		"weapon": "gauntlet",
 		"show": true
@@ -160,6 +748,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_13_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_baer_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 802.00,
+				"atk": 20.00,
+				"def": 93.00
+			},
+			"20": {
+				"hp": 2620.94,
+				"atk": 66.60,
+				"def": 298.53
+			},
+			"40": {
+				"hp": 4499.22,
+				"atk": 115.60,
+				"def": 512.43
+			},
+			"50": {
+				"hp": 5718.26,
+				"atk": 147.60,
+				"def": 649.14
+			},
+			"60": {
+				"hp": 6927.68,
+				"atk": 178.80,
+				"def": 786.13
+			},
+			"70": {
+				"hp": 8138.70,
+				"atk": 206.60,
+				"def": 923.46
+			},
+			"80": {
+				"hp": 9349.57,
+				"atk": 233.33,
+				"def": 1060.05
+			},
+			"90": {
+				"hp": 10025.00,
+				"atk": 250.00,
+				"def": 1136.65
+			}
+		},
 		"element": "fusion",
 		"weapon": "pistols",
 		"show": true
@@ -171,6 +801,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -182,7 +854,102 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_4_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 912.00,
+				"atk": 30.00,
+				"def": 112.00
+			},
+			"20": {
+				"hp": 2980.42,
+				"atk": 99.90,
+				"def": 359.52
+			},
+			"40": {
+				"hp": 5116.32,
+				"atk": 173.40,
+				"def": 617.12
+			},
+			"50": {
+				"hp": 6502.56,
+				"atk": 221.40,
+				"def": 781.76
+			},
+			"60": {
+				"hp": 7877.86,
+				"atk": 268.20,
+				"def": 946.74
+			},
+			"70": {
+				"hp": 9254.98,
+				"atk": 309.90,
+				"def": 1112.13
+			},
+			"80": {
+				"hp": 10631.93,
+				"atk": 350.00,
+				"def": 1276.63
+			},
+			"90": {
+				"hp": 11400.00,
+				"atk": 375.00,
+				"def": 1368.86
+			}
+		},
 		"element": "spectro",
+		"weapon": "sword",
+		"show": true
+	},
+	"rover-havoc": {
+		"name": "resonators.list.rover.name",
+		"subname": "resonators.list.rover.subname",
+		"description": "resonators.list.rover.description",
+		"icon": "/images/resonators/icons/T_IconRoleHead256_5_UI.png",
+		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
+		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 912.00,
+				"atk": 30.00,
+				"def": 112.00
+			},
+			"20": {
+				"hp": 2980.42,
+				"atk": 99.90,
+				"def": 359.52
+			},
+			"40": {
+				"hp": 5116.32,
+				"atk": 173.40,
+				"def": 617.12
+			},
+			"50": {
+				"hp": 6502.56,
+				"atk": 221.40,
+				"def": 781.76
+			},
+			"60": {
+				"hp": 7877.86,
+				"atk": 268.20,
+				"def": 946.74
+			},
+			"70": {
+				"hp": 9254.98,
+				"atk": 309.90,
+				"def": 1112.13
+			},
+			"80": {
+				"hp": 10631.93,
+				"atk": 350.00,
+				"def": 1276.63
+			},
+			"90": {
+				"hp": 11400.00,
+				"atk": 375.00,
+				"def": 1368.86
+			}
+		},
+		"element": "havoc",
 		"weapon": "sword",
 		"show": true
 	},
@@ -193,6 +960,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_4_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 912.00,
+				"atk": 30.00,
+				"def": 112.00
+			},
+			"20": {
+				"hp": 2980.42,
+				"atk": 99.90,
+				"def": 359.52
+			},
+			"40": {
+				"hp": 5116.32,
+				"atk": 173.40,
+				"def": 617.12
+			},
+			"50": {
+				"hp": 6502.56,
+				"atk": 221.40,
+				"def": 781.76
+			},
+			"60": {
+				"hp": 7877.86,
+				"atk": 268.20,
+				"def": 946.74
+			},
+			"70": {
+				"hp": 9254.98,
+				"atk": 309.90,
+				"def": 1112.13
+			},
+			"80": {
+				"hp": 10631.93,
+				"atk": 350.00,
+				"def": 1276.63
+			},
+			"90": {
+				"hp": 11400.00,
+				"atk": 375.00,
+				"def": 1368.86
+			}
+		},
 		"element": "none",
 		"weapon": "sword",
 		"show": false
@@ -204,6 +1013,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_7_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_shanhua_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 805.00,
+				"atk": 22.00,
+				"def": 77.00
+			},
+			"20": {
+				"hp": 2630.74,
+				"atk": 73.26,
+				"def": 247.17
+			},
+			"40": {
+				"hp": 4516.05,
+				"atk": 127.16,
+				"def": 424.27
+			},
+			"50": {
+				"hp": 5739.65,
+				"atk": 162.36,
+				"def": 537.46
+			},
+			"60": {
+				"hp": 6953.59,
+				"atk": 196.68,
+				"def": 650.88
+			},
+			"70": {
+				"hp": 8169.14,
+				"atk": 227.26,
+				"def": 764.59
+			},
+			"80": {
+				"hp": 9384.55,
+				"atk": 256.67,
+				"def": 877.68
+			},
+			"90": {
+				"hp": 10062.50,
+				"atk": 275.00,
+				"def": 941.09
+			}
+		},
 		"element": "glacio",
 		"weapon": "sword",
 		"show": true
@@ -215,6 +1066,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"20": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"40": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"50": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"60": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"70": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"80": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			},
+			"90": {
+				"hp": 0,
+				"atk": 0,
+				"def": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -226,6 +1119,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_9_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_taohua_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 716.00,
+				"atk": 18.00,
+				"def": 128.00
+			},
+			"20": {
+				"hp": 2339.89,
+				"atk": 59.94,
+				"def": 410.88
+			},
+			"40": {
+				"hp": 4016.76,
+				"atk": 104.04,
+				"def": 705.28
+			},
+			"50": {
+				"hp": 5105.08,
+				"atk": 132.84,
+				"def": 893.44
+			},
+			"60": {
+				"hp": 6184.81,
+				"atk": 160.92,
+				"def": 1081.98
+			},
+			"70": {
+				"hp": 7265.97,
+				"atk": 185.94,
+				"def": 1271.00
+			},
+			"80": {
+				"hp": 8347.00,
+				"atk": 210.00,
+				"def": 1459.00
+			},
+			"90": {
+				"hp": 8950.00,
+				"atk": 225.00,
+				"def": 1564.42
+			}
+		},
 		"element": "havoc",
 		"weapon": "broadblade",
 		"show": true
@@ -237,6 +1172,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_3_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jueyuan_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 1139.00,
+				"atk": 27.00,
+				"def": 90.00
+			},
+			"20": {
+				"hp": 3722.25,
+				"atk": 89.91,
+				"def": 288.90
+			},
+			"40": {
+				"hp": 6389.79,
+				"atk": 156.06,
+				"def": 495.90
+			},
+			"50": {
+				"hp": 8121.07,
+				"atk": 199.26,
+				"def": 628.20
+			},
+			"60": {
+				"hp": 9838.68,
+				"atk": 241.38,
+				"def": 760.77
+			},
+			"70": {
+				"hp": 11558.57,
+				"atk": 278.91,
+				"def": 893.67
+			},
+			"80": {
+				"hp": 13278.26,
+				"atk": 315.00,
+				"def": 1025.86
+			},
+			"90": {
+				"hp": 14237.50,
+				"atk": 337.50,
+				"def": 1099.98
+			}
+		},
 		"element": "spectro",
 		"weapon": "rectifier",
 		"show": true
@@ -248,6 +1225,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_1_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yangyang_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 816.00,
+				"atk": 20.00,
+				"def": 90.00
+			},
+			"20": {
+				"hp": 2666.69,
+				"atk": 66.60,
+				"def": 288.90
+			},
+			"40": {
+				"hp": 4577.76,
+				"atk": 115.60,
+				"def": 495.90
+			},
+			"50": {
+				"hp": 5818.08,
+				"atk": 147.60,
+				"def": 628.20
+			},
+			"60": {
+				"hp": 7048.61,
+				"atk": 178.80,
+				"def": 760.77
+			},
+			"70": {
+				"hp": 8280.77,
+				"atk": 206.60,
+				"def": 893.67
+			},
+			"80": {
+				"hp": 9512.78,
+				"atk": 233.33,
+				"def": 1025.86
+			},
+			"90": {
+				"hp": 10200.00,
+				"atk": 250.00,
+				"def": 1099.98
+			}
+		},
 		"element": "aero",
 		"weapon": "sword",
 		"show": true
@@ -259,6 +1278,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_17_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yinlin_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"hp": 880.00,
+				"atk": 32.00,
+				"def": 105.00
+			},
+			"20": {
+				"hp": 2875.84,
+				"atk": 106.56,
+				"def": 337.05
+			},
+			"40": {
+				"hp": 4936.84,
+				"atk": 184.96,
+				"def": 578.55
+			},
+			"50": {
+				"hp": 6274.40,
+				"atk": 236.16,
+				"def": 732.90
+			},
+			"60": {
+				"hp": 7601.44,
+				"atk": 286.08,
+				"def": 887.57
+			},
+			"70": {
+				"hp": 8930.24,
+				"atk": 330.56,
+				"def": 1042.62
+			},
+			"80": {
+				"hp": 10258.88,
+				"atk": 373.33,
+				"def": 1196.84
+			},
+			"90": {
+				"hp": 11000.00,
+				"atk": 400.00,
+				"def": 1283.31
+			}
+		},
 		"element": "electro",
 		"weapon": "rectifier",
 		"show": true
@@ -270,6 +1331,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_15_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yuanwu_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"hp": 682.00,
+				"atk": 18.00,
+				"def": 134.00
+			},
+			"20": {
+				"hp": 1773.20,
+				"atk": 46.80,
+				"def": 343.04
+			},
+			"40": {
+				"hp": 3826.02,
+				"atk": 104.04,
+				"def": 738.34
+			},
+			"50": {
+				"hp": 4862.66,
+				"atk": 132.84,
+				"def": 935.32
+			},
+			"60": {
+				"hp": 5891.12,
+				"atk": 160.92,
+				"def": 1132.70
+			},
+			"70": {
+				"hp": 6920.94,
+				"atk": 185.94,
+				"def": 1330.58
+			},
+			"80": {
+				"hp": 7950.63,
+				"atk": 210.00,
+				"def": 1527.39
+			},
+			"90": {
+				"hp": 8525.00,
+				"atk": 225.00,
+				"def": 1637.75
+			}
+		},
 		"element": "electro",
 		"weapon": "gauntlet",
 		"show": true

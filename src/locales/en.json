@@ -57,6 +57,11 @@
 			"spectro": "Spectro",
 			"attribute": "{element} attribute"
 		},
+		"stats": {
+			"hp": "HP",
+			"atk": "ATK",
+			"def": "DEF"
+		},
 		"weapons": {
 			"title": "Weapons",
 			"sword": "Sword",
