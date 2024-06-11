@@ -1,32 +1,32 @@
 {
 	"aero": {
 		"i18n": "resonators.elements.aero",
-		"icon": "/images/elements/aero.png",
+		"icon": "/images/elements/T_IconElementWind3.png",
 		"color": "#97d3ba"
 	},
 	"fusion": {
 		"i18n": "resonators.elements.fusion",
-		"icon": "/images/elements/fusion.png",
+		"icon": "/images/elements/T_IconElementFire3.png",
 		"color": "#c15d5d"
 	},
 	"spectro": {
 		"i18n": "resonators.elements.spectro",
-		"icon": "/images/elements/spectro.png",
+		"icon": "/images/elements/T_IconElementLight3.png",
 		"color": "#c5b065"
 	},
 	"glacio": {
 		"i18n": "resonators.elements.glacio",
-		"icon": "/images/elements/glacio.png",
+		"icon": "/images/elements/T_IconElementIce3.png",
 		"color": "#67bcdb"
 	},
 	"havoc": {
 		"i18n": "resonators.elements.havoc",
-		"icon": "/images/elements/havoc.png",
+		"icon": "/images/elements/T_IconElementDark3.png",
 		"color": "#e649a6"
 	},
 	"electro": {
 		"i18n": "resonators.elements.electro",
-		"icon": "/images/elements/electro.png",
+		"icon": "/images/elements/T_IconElementThunder3.png",
 		"color": "#a965c5"
 	},
 	"none": {

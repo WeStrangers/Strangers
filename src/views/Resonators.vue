@@ -1,13 +1,18 @@
 <template>
-  <div class="relative flex flex-col justify-start items-center *:p-2">
-		<Filter />
-		<h2>{{ $t('') }}</h2>
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
-			<!-- @vue-skip -->
-			<Card v-for="(resonator, index) in resonators" :key="index" :resonator="resonator" :filters="filters" :to="`/resonators/${index}`" />
+  <div class="relative">
+		<div
+			class="flex flex-col justify-start items-center *:p-2"
+			v-show="$route.fullPath === '/resonators' || $route.fullPath === '/resonators/'"
+		>
+			<Filter />
+			<h2>{{ $t('') }}</h2>
+			<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
+				<!-- @vue-skip -->
+				<Card v-for="(resonator, index) in resonators" :key="index" :resonator="resonator" :filters="filters" :to="`/resonators/${index}`" />
+			</div>
 		</div>
 		<router-view class="absolute" v-slot="{ Component }">
-			<transition mode="out-in">
+			<transition>
 				<component class="p-4" :is="Component" />
 			</transition>
 		</router-view>
@@ -54,7 +59,7 @@ provide('resonator', resonator);
 <style scoped>
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 0.25s ease;
+  transition: opacity 0.5s ease;
 }
 
 .v-enter-from,
