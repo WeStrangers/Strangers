@@ -1,9 +1,8 @@
 <template>
-	<!-- @vue-skip -->
   <router-link
 		class="relative p-2 border-2 rounded-xl border-slate-800 bg-slate-900 hover:bg-slate-800"
 		:class="checkShow() ? '' : 'hidden'"
-		@click="select = resonator"
+		:to="to"
 	>
 		<img class="absolute right-1 top-1 w-9 h-9 p-0.5 rounded-full bg-slate-900" :src="elements[props.resonator.element]?.icon" alt="">
 		<div class="flex flex-col inset-0">
@@ -14,39 +13,43 @@
 </template>
 
 <script setup lang="ts">
-import { inject, Ref, ref } from 'vue';
-
 import elements from '../../../assets/elements.json';
 type Elements = typeof elements;
 import weapons from '../../../assets/weapons.json';
 type Weapons = typeof weapons;
 
-const select: Ref<{
-	name: string,
-	description: string,
-	icon: string,
-	portrait: string,
-	rarity: number
-	element: keyof Elements,
-	weapon: keyof Weapons,
-	show: boolean
-} | null> = ref(inject('resonator') || null);
+type statsType = {
+	"hp": number;
+	"atk": number;
+	"def": number;
+};
 
 const props = defineProps<{
 	resonator: {
-		name: string,
-		description: string,
-		icon: string,
-		portrait: string,
-		rarity: number
-		element: keyof Elements,
-		weapon: keyof Weapons,
-		show: boolean
-	},
+		name: string;
+		description: string;
+		icon: string;
+		portrait: string;
+		rarity: 5 | 4;
+		stats: {
+			"1": statsType;
+			"20": statsType;
+			"40": statsType;
+			"50": statsType;
+			"60": statsType;
+			"70": statsType;
+			"80": statsType;
+			"90": statsType;
+		};
+		element: keyof Elements;
+		weapon: keyof Weapons;
+		show: boolean;
+	};
 	filters: {
-		elements: Array<keyof Elements>,
-		weapons: Array<keyof Weapons>
-	}
+		elements: Array<keyof Elements>;
+		weapons: Array<keyof Weapons>;
+	};
+	to: string;
 }>();
 
 function checkShow() {

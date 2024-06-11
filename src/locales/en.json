@@ -28,10 +28,6 @@
 				],
 				"button": "Resonators"
 			},
-			"timer": {
-				"title": "Timer",
-				"description": "Time left until the game releases:"
-			},
 			"info": {
 				"title": "Information",
 				"description": [
@@ -47,6 +43,15 @@
 		}
 	},
 	"resonators": {
+		"resonator": {
+			"introduction": {
+				"title": "Introduction"
+			},
+			"stats": {
+				"title": "Stats",
+				"level": "Level:"
+			}
+		},
 		"elements": {
 			"title": "Elements",
 			"aero": "Aero",
@@ -56,6 +61,11 @@
 			"havoc": "Havoc",
 			"spectro": "Spectro",
 			"attribute": "{element} attribute"
+		},
+		"stats": {
+			"health": "HP",
+			"attack": "ATK",
+			"defense": "DEF"
 		},
 		"weapons": {
 			"title": "Weapons",

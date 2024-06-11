@@ -40,3 +40,7 @@
 	-moz-font-feature-settings: 'liga';
 	-moz-osx-font-smoothing: grayscale;
 }
+
+img {
+	user-select: none;
+}

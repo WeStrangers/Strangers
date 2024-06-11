@@ -6,6 +6,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_12_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_qiushui_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 788,
+				"attack": 21,
+				"defense": 88
+			},
+			"20": {
+				"health": 2575.18,
+				"attack": 69.93,
+				"defense": 282.48
+			},
+			"40": {
+				"health": 4420.68,
+				"attack": 121.38,
+				"defense": 484.88
+			},
+			"50": {
+				"health": 5618.44,
+				"attack": 154.98,
+				"defense": 614.24
+			},
+			"60": {
+				"health": 6806.74,
+				"attack": 187.74,
+				"defense": 743.86
+			},
+			"70": {
+				"health": 7996.62,
+				"attack": 216.93,
+				"defense": 873.81
+			},
+			"80": {
+				"health": 9186.36,
+				"attack": 245.00,
+				"defense": 1003.06
+			},
+			"90": {
+				"health": 9850.00,
+				"attack": 262.50,
+				"defense": 1075.54
+			}
+		},
 		"element": "aero",
 		"weapon": "pistols",
 		"show": true
@@ -17,6 +59,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_6_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_bailian_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 1025.00,
+				"attack": 17.00,
+				"defense": 82.00
+			},
+			"20": {
+				"health": 3349.70,
+				"attack": 56.61,
+				"defense": 263.22
+			},
+			"40": {
+				"health": 5750.25,
+				"attack": 98.26,
+				"defense": 451.82
+			},
+			"50": {
+				"health": 7308.25,
+				"attack": 125.46,
+				"defense": 572.36
+			},
+			"60": {
+				"health": 8853.95,
+				"attack": 151.98,
+				"defense": 693.15
+			},
+			"70": {
+				"health": 10401.70,
+				"attack": 175.61,
+				"defense": 814.23
+			},
+			"80": {
+				"health": 11949.27,
+				"attack": 198.33,
+				"defense": 934.67
+			},
+			"90": {
+				"health": 12812.50,
+				"attack": 212.50,
+				"defense": 1002.20
+			}
+		},
 		"element": "glacio",
 		"weapon": "rectifier",
 		"show": true
@@ -28,6 +112,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_18_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_kakaluo_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 840.00,
+				"attack": 35.00,
+				"defense": 97.00
+			},
+			"20": {
+				"health": 2745.12,
+				"attack": 116.55,
+				"defense": 311.37
+			},
+			"40": {
+				"health": 4712.40,
+				"attack": 202.30,
+				"defense": 534.47
+			},
+			"50": {
+				"health": 5989.20,
+				"attack": 258.30,
+				"defense": 677.06
+			},
+			"60": {
+				"health": 7255.92,
+				"attack": 312.90,
+				"defense": 819.94
+			},
+			"70": {
+				"health": 8524.32,
+				"attack": 361.55,
+				"defense": 963.18
+			},
+			"80": {
+				"health": 9792.57,
+				"attack": 408.33,
+				"defense": 1105.65
+			},
+			"90": {
+				"health": 10500.00,
+				"attack": 437.50,
+				"defense": 1185.53
+			}
+		},
 		"element": "electro",
 		"weapon": "broadblade",
 		"show": true
@@ -39,6 +165,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_16_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_chun_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "havoc",
 		"weapon": "sword",
 		"show": false
@@ -50,6 +218,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -61,6 +271,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_2_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_maxiaofang_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 727.00,
+				"attack": 24.00,
+				"defense": 78.00
+			},
+			"20": {
+				"health": 2375.84,
+				"attack": 79.92,
+				"defense": 250.38
+			},
+			"40": {
+				"health": 4078.47,
+				"attack": 138.72,
+				"defense": 429.78
+			},
+			"50": {
+				"health": 5183.51,
+				"attack": 177.12,
+				"defense": 544.44
+			},
+			"60": {
+				"health": 6279.83,
+				"attack": 214.56,
+				"defense": 659.33
+			},
+			"70": {
+				"health": 7377.60,
+				"attack": 247.92,
+				"defense": 774.52
+			},
+			"80": {
+				"health": 8475.24,
+				"attack": 280.00,
+				"defense": 889.08
+			},
+			"90": {
+				"health": 9087.50,
+				"attack": 300.00,
+				"defense": 953.32
+			}
+		},
 		"element": "fusion",
 		"weapon": "pistols",
 		"show": true
@@ -72,6 +324,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_10_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_micai_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 755.00,
+				"attack": 21.00,
+				"defense": 94.00
+			},
+			"20": {
+				"health": 2467.34,
+				"attack": 69.93,
+				"defense": 301.74
+			},
+			"40": {
+				"health": 4235.55,
+				"attack": 121.38,
+				"defense": 517.94
+			},
+			"50": {
+				"health": 5383.15,
+				"attack": 154.98,
+				"defense": 656.12
+			},
+			"60": {
+				"health": 6521.69,
+				"attack": 187.74,
+				"defense": 794.58
+			},
+			"70": {
+				"health": 7661.74,
+				"attack": 216.93,
+				"defense": 933.39
+			},
+			"80": {
+				"health": 8801.66,
+				"attack": 245.00,
+				"defense": 1071.45
+			},
+			"90": {
+				"health": 9437.50,
+				"attack": 262.50,
+				"defense": 1148.87
+			}
+		},
 		"element": "havoc",
 		"weapon": "sword",
 		"show": true
@@ -83,6 +377,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_8_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_anke_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 841.00,
+				"attack": 34.00,
+				"defense": 102.00
+			},
+			"20": {
+				"health": 2748.39,
+				"attack": 113.22,
+				"defense": 327.42
+			},
+			"40": {
+				"health": 4718.01,
+				"attack": 196.52,
+				"defense": 562.02
+			},
+			"50": {
+				"health": 5996.33,
+				"attack": 250.920,
+				"defense": 711.96
+			},
+			"60": {
+				"health": 7264.56,
+				"attack": 303.96,
+				"defense": 862.21
+			},
+			"70": {
+				"health": 8534.47,
+				"attack": 351.22,
+				"defense": 1012.83
+			},
+			"80": {
+				"health": 9804.23,
+				"attack": 396.67,
+				"defense": 1162.64
+			},
+			"90": {
+				"health": 10512.50,
+				"attack": 425.00,
+				"defense": 1246.64
+			}
+		},
 		"element": "fusion",
 		"weapon": "rectifier",
 		"show": true
@@ -94,6 +430,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -105,6 +483,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_23_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jiexin_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 1129.00,
+				"attack": 27.00,
+				"defense": 92.00
+			},
+			"20": {
+				"health": 3689.57,
+				"attack": 89.91,
+				"defense": 295.32
+			},
+			"40": {
+				"health": 6333.69,
+				"attack": 156.06,
+				"defense": 506.92
+			},
+			"50": {
+				"health": 8049.77,
+				"attack": 199.26,
+				"defense": 642.16
+			},
+			"60": {
+				"health": 9752.3,
+				"attack": 241.38,
+				"defense": 777.68
+			},
+			"70": {
+				"health": 1457.09,
+				"attack": 278.91,
+				"defense": 913.53
+			},
+			"80": {
+				"health": 13161.68,
+				"attack": 315.00,
+				"defense": 1048.66
+			},
+			"90": {
+				"health": 14112.50,
+				"attack": 337.50,
+				"defense": 1124.42
+			}
+		},
 		"element": "aero",
 		"weapon": "gauntlet",
 		"show": true
@@ -116,6 +536,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -127,6 +589,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_11_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jiyan_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 839.00,
+				"attack": 35.00,
+				"defense": 97.00
+			},
+			"20": {
+				"health": 2741.85,
+				"attack": 116.55,
+				"defense": 311.37
+			},
+			"40": {
+				"health": 4706.79,
+				"attack": 202.30,
+				"defense": 534.47
+			},
+			"50": {
+				"health": 5982.07,
+				"attack": 258.30,
+				"defense": 677.06
+			},
+			"60": {
+				"health": 7247.28,
+				"attack": 312.90,
+				"defense": 819.94
+			},
+			"70": {
+				"health": 8514.17,
+				"attack": 361.55,
+				"defense": 963.18
+			},
+			"80": {
+				"health": 9780.91,
+				"attack": 408.33,
+				"defense": 1105.65
+			},
+			"90": {
+				"health": 10487.50,
+				"attack": 437.50,
+				"defense": 1185.53
+			}
+		},
 		"element": "aero",
 		"weapon": "broadblade",
 		"show": true
@@ -138,6 +642,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -149,6 +695,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_14_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_lingyang_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 831.00,
+				"attack": 35.00,
+				"defense": 99.00
+			},
+			"20": {
+				"health": 2715.71,
+				"attack": 116.55,
+				"defense": 317.79
+			},
+			"40": {
+				"health": 4661.91,
+				"attack": 202.30,
+				"defense": 545.49
+			},
+			"50": {
+				"health": 5925.03,
+				"attack": 258.30,
+				"defense": 691.02
+			},
+			"60": {
+				"health": 7178.18,
+				"attack": 312.90,
+				"defense": 836.85
+			},
+			"70": {
+				"health": 8432.99,
+				"attack": 361.55,
+				"defense": 983.04
+			},
+			"80": {
+				"health": 9687.65,
+				"attack": 408.33,
+				"defense": 1128.45
+			},
+			"90": {
+				"health": 10387.50,
+				"attack": 437.50,
+				"defense": 1209.98
+			}
+		},
 		"element": "glacio",
 		"weapon": "gauntlet",
 		"show": true
@@ -160,6 +748,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_13_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_baer_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 802.00,
+				"attack": 20.00,
+				"defense": 93.00
+			},
+			"20": {
+				"health": 2620.94,
+				"attack": 66.60,
+				"defense": 298.53
+			},
+			"40": {
+				"health": 4499.22,
+				"attack": 115.60,
+				"defense": 512.43
+			},
+			"50": {
+				"health": 5718.26,
+				"attack": 147.60,
+				"defense": 649.14
+			},
+			"60": {
+				"health": 6927.68,
+				"attack": 178.80,
+				"defense": 786.13
+			},
+			"70": {
+				"health": 8138.70,
+				"attack": 206.60,
+				"defense": 923.46
+			},
+			"80": {
+				"health": 9349.57,
+				"attack": 233.33,
+				"defense": 1060.05
+			},
+			"90": {
+				"health": 10025.00,
+				"attack": 250.00,
+				"defense": 1136.65
+			}
+		},
 		"element": "fusion",
 		"weapon": "pistols",
 		"show": true
@@ -171,6 +801,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -182,7 +854,102 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_4_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
+			},
+			"20": {
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
+			},
+			"40": {
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
+			},
+			"50": {
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
+			},
+			"60": {
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
+			},
+			"70": {
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
+			},
+			"80": {
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
+			},
+			"90": {
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
+			}
+		},
 		"element": "spectro",
+		"weapon": "sword",
+		"show": true
+	},
+	"rover-havoc": {
+		"name": "resonators.list.rover.name",
+		"subname": "resonators.list.rover.subname",
+		"description": "resonators.list.rover.description",
+		"icon": "/images/resonators/icons/T_IconRoleHead256_5_UI.png",
+		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
+		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
+			},
+			"20": {
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
+			},
+			"40": {
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
+			},
+			"50": {
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
+			},
+			"60": {
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
+			},
+			"70": {
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
+			},
+			"80": {
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
+			},
+			"90": {
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
+			}
+		},
+		"element": "havoc",
 		"weapon": "sword",
 		"show": true
 	},
@@ -193,6 +960,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_4_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_rovers_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 912.00,
+				"attack": 30.00,
+				"defense": 112.00
+			},
+			"20": {
+				"health": 2980.42,
+				"attack": 99.90,
+				"defense": 359.52
+			},
+			"40": {
+				"health": 5116.32,
+				"attack": 173.40,
+				"defense": 617.12
+			},
+			"50": {
+				"health": 6502.56,
+				"attack": 221.40,
+				"defense": 781.76
+			},
+			"60": {
+				"health": 7877.86,
+				"attack": 268.20,
+				"defense": 946.74
+			},
+			"70": {
+				"health": 9254.98,
+				"attack": 309.90,
+				"defense": 1112.13
+			},
+			"80": {
+				"health": 10631.93,
+				"attack": 350.00,
+				"defense": 1276.63
+			},
+			"90": {
+				"health": 11400.00,
+				"attack": 375.00,
+				"defense": 1368.86
+			}
+		},
 		"element": "none",
 		"weapon": "sword",
 		"show": false
@@ -204,6 +1013,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_7_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_shanhua_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 805.00,
+				"attack": 22.00,
+				"defense": 77.00
+			},
+			"20": {
+				"health": 2630.74,
+				"attack": 73.26,
+				"defense": 247.17
+			},
+			"40": {
+				"health": 4516.05,
+				"attack": 127.16,
+				"defense": 424.27
+			},
+			"50": {
+				"health": 5739.65,
+				"attack": 162.36,
+				"defense": 537.46
+			},
+			"60": {
+				"health": 6953.59,
+				"attack": 196.68,
+				"defense": 650.88
+			},
+			"70": {
+				"health": 8169.14,
+				"attack": 227.26,
+				"defense": 764.59
+			},
+			"80": {
+				"health": 9384.55,
+				"attack": 256.67,
+				"defense": 877.68
+			},
+			"90": {
+				"health": 10062.50,
+				"attack": 275.00,
+				"defense": 941.09
+			}
+		},
 		"element": "glacio",
 		"weapon": "sword",
 		"show": true
@@ -215,6 +1066,48 @@
 		"icon": "none",
 		"portrait": "none",
 		"rarity": 0,
+		"stats": {
+			"1": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"20": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"40": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"50": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"60": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"70": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"80": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			},
+			"90": {
+				"health": 0,
+				"attack": 0,
+				"defense": 0
+			}
+		},
 		"element": "none",
 		"weapon": "none",
 		"show": false
@@ -226,6 +1119,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_9_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_taohua_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 716.00,
+				"attack": 18.00,
+				"defense": 128.00
+			},
+			"20": {
+				"health": 2339.89,
+				"attack": 59.94,
+				"defense": 410.88
+			},
+			"40": {
+				"health": 4016.76,
+				"attack": 104.04,
+				"defense": 705.28
+			},
+			"50": {
+				"health": 5105.08,
+				"attack": 132.84,
+				"defense": 893.44
+			},
+			"60": {
+				"health": 6184.81,
+				"attack": 160.92,
+				"defense": 1081.98
+			},
+			"70": {
+				"health": 7265.97,
+				"attack": 185.94,
+				"defense": 1271.00
+			},
+			"80": {
+				"health": 8347.00,
+				"attack": 210.00,
+				"defense": 1459.00
+			},
+			"90": {
+				"health": 8950.00,
+				"attack": 225.00,
+				"defense": 1564.42
+			}
+		},
 		"element": "havoc",
 		"weapon": "broadblade",
 		"show": true
@@ -237,6 +1172,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_3_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_jueyuan_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 1139.00,
+				"attack": 27.00,
+				"defense": 90.00
+			},
+			"20": {
+				"health": 3722.25,
+				"attack": 89.91,
+				"defense": 288.90
+			},
+			"40": {
+				"health": 6389.79,
+				"attack": 156.06,
+				"defense": 495.90
+			},
+			"50": {
+				"health": 8121.07,
+				"attack": 199.26,
+				"defense": 628.20
+			},
+			"60": {
+				"health": 9838.68,
+				"attack": 241.38,
+				"defense": 760.77
+			},
+			"70": {
+				"health": 11558.57,
+				"attack": 278.91,
+				"defense": 893.67
+			},
+			"80": {
+				"health": 13278.26,
+				"attack": 315.00,
+				"defense": 1025.86
+			},
+			"90": {
+				"health": 14237.50,
+				"attack": 337.50,
+				"defense": 1099.98
+			}
+		},
 		"element": "spectro",
 		"weapon": "rectifier",
 		"show": true
@@ -248,6 +1225,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_1_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yangyang_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 816.00,
+				"attack": 20.00,
+				"defense": 90.00
+			},
+			"20": {
+				"health": 2666.69,
+				"attack": 66.60,
+				"defense": 288.90
+			},
+			"40": {
+				"health": 4577.76,
+				"attack": 115.60,
+				"defense": 495.90
+			},
+			"50": {
+				"health": 5818.08,
+				"attack": 147.60,
+				"defense": 628.20
+			},
+			"60": {
+				"health": 7048.61,
+				"attack": 178.80,
+				"defense": 760.77
+			},
+			"70": {
+				"health": 8280.77,
+				"attack": 206.60,
+				"defense": 893.67
+			},
+			"80": {
+				"health": 9512.78,
+				"attack": 233.33,
+				"defense": 1025.86
+			},
+			"90": {
+				"health": 10200.00,
+				"attack": 250.00,
+				"defense": 1099.98
+			}
+		},
 		"element": "aero",
 		"weapon": "sword",
 		"show": true
@@ -259,6 +1278,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_17_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yinlin_UI.png",
 		"rarity": 5,
+		"stats": {
+			"1": {
+				"health": 880.00,
+				"attack": 32.00,
+				"defense": 105.00
+			},
+			"20": {
+				"health": 2875.84,
+				"attack": 106.56,
+				"defense": 337.05
+			},
+			"40": {
+				"health": 4936.84,
+				"attack": 184.96,
+				"defense": 578.55
+			},
+			"50": {
+				"health": 6274.40,
+				"attack": 236.16,
+				"defense": 732.90
+			},
+			"60": {
+				"health": 7601.44,
+				"attack": 286.08,
+				"defense": 887.57
+			},
+			"70": {
+				"health": 8930.24,
+				"attack": 330.56,
+				"defense": 1042.62
+			},
+			"80": {
+				"health": 10258.88,
+				"attack": 373.33,
+				"defense": 1196.84
+			},
+			"90": {
+				"health": 11000.00,
+				"attack": 400.00,
+				"defense": 1283.31
+			}
+		},
 		"element": "electro",
 		"weapon": "rectifier",
 		"show": true
@@ -270,6 +1331,48 @@
 		"icon": "/images/resonators/icons/T_IconRoleHead256_15_UI.png",
 		"portrait": "/images/resonators/portraits/T_IconRole_Pile_yuanwu_UI.png",
 		"rarity": 4,
+		"stats": {
+			"1": {
+				"health": 682.00,
+				"attack": 18.00,
+				"defense": 134.00
+			},
+			"20": {
+				"health": 1773.20,
+				"attack": 46.80,
+				"defense": 343.04
+			},
+			"40": {
+				"health": 3826.02,
+				"attack": 104.04,
+				"defense": 738.34
+			},
+			"50": {
+				"health": 4862.66,
+				"attack": 132.84,
+				"defense": 935.32
+			},
+			"60": {
+				"health": 5891.12,
+				"attack": 160.92,
+				"defense": 1132.70
+			},
+			"70": {
+				"health": 6920.94,
+				"attack": 185.94,
+				"defense": 1330.58
+			},
+			"80": {
+				"health": 7950.63,
+				"attack": 210.00,
+				"defense": 1527.39
+			},
+			"90": {
+				"health": 8525.00,
+				"attack": 225.00,
+				"defense": 1637.75
+			}
+		},
 		"element": "electro",
 		"weapon": "gauntlet",
 		"show": true

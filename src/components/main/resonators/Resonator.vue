@@ -1,14 +1,12 @@
 <template>
-  <div
-		class="fixed inset-0 flex flex-col items-center bg-slate-950"
-	>
-		<div class="flex flex-row-reverse w-full px-1">
+  <div class="flex flex-col items-center min-h-max p-4 bg-slate-950">
+		<div class="flex flex-row-reverse w-full px-1 z-10">
 			<router-link to="/resonators">
 				<span class="icon-fill p-1">close</span>
 			</router-link>
 		</div>
-		<div class="relative w-full h-full" v-if="resonator">
-			<div class="relative flex flex-col justify-center items-center w-full lg:w-8/12 space-y-2 p-2 font-semibold z-10">
+		<div class="w-full" v-if="resonator">
+			<div class="flex flex-col justify-center items-center w-full lg:w-8/12 space-y-2 p-2 font-semibold *:z-10">
 				<div class="flex flex-wrap justify-center items-center *:m-1">
 					<img
 						class="w-48 h-48 rounded-b-[calc(12rem/2)]"
@@ -18,9 +16,7 @@
 
 					<div class="flex flex-col rounded-xl z-10 space-y-1 p-2 bg-slate-900">
 						<div class="flex justify-between items-end space-x-2">
-							<p
-								class="text-4xl"
-							>
+							<p class="text-4xl">
 								{{ $t(resonator.name) }}
 							</p>
 							<div
@@ -32,12 +28,19 @@
 								<p class="pe-2" :class="`text-[${element.color}]`">
 									{{ $t(element.i18n) }}
 								</p>
+								<!-- <div class="text-[#97d3ba] border-[#c15d5d] text-[#c5b065] text-[#67bcdb] text-[#e649a6] text-[#a965c5]" /> -->
+								<!-- <div class="border-[#97d3ba] border-[#c15d5d] border-[#c5b065] border-[#67bcdb] border-[#e649a6] border-[#a965c5]" /> -->
 							</div>
 						</div>
 
-						<p class="w-fit">{{ $t(resonator.subname) }}</p>
-						<!-- <div class="text-[#97d3ba] border-[#c15d5d] text-[#c5b065] text-[#67bcdb] text-[#e649a6] text-[#a965c5]" /> -->
-						<!-- <div class="border-[#97d3ba] border-[#c15d5d] border-[#c5b065] border-[#67bcdb] border-[#e649a6] border-[#a965c5]" /> -->
+						<div class="flex space-x-2">
+							<p class="w-fit">{{ $t(resonator.subname) }}</p>
+							<p v-if="resonator.rarity === 5" class="text-[#ffe65a]">★★★★★</p>
+							<p v-else-if="resonator.rarity === 4" class="text-[#ca6dff]">★★★★</p>
+							<p v-else-if="resonator.rarity === 3" class="text-[#00b4ff]">★★★</p>
+							<p v-else-if="resonator.rarity === 2" class="text-[#16ec5a]">★★</p>
+							<p v-else-if="resonator.rarity === 1" class="text-white">★</p>
+						</div>
 
 						<div>
 
@@ -46,15 +49,39 @@
 				</div>
 
 				<div class="flex flex-col space-y-1">
-					<h3 class="text-xl">Introduction</h3>
-					<div class="rounded z-10 p-2 shadow bg-slate-900">
-						<p class="w-fit">{{ $t(resonator.description) }}</p>
+					<h3 class="text-xl">{{ $t('resonators.resonator.introduction.title') }}</h3>
+					<div class="p-2 rounded shadow border-2 border-slate-800 bg-slate-900">
+						<p class="w-fit hyphens-auto" :lang="i18n.global.locale">{{ $t(resonator.description) }}</p>
+					</div>
+				</div>
+			
+				<div class="flex flex-col w-full space-y-1">
+					<h3 class="text-xl">{{ $t('resonators.resonator.stats.title') }}</h3>
+					<div class="rounded shadow border-2 p-2 space-y-2 border-slate-800 bg-slate-900">
+						<div class="flex justify-center items-center w-full space-x-2">
+							<p>{{ $t('resonators.resonator.stats.level') }}</p>
+							<select class="flex-1 rounded px-2 py-1 bg-slate-800" v-model="selected">
+							  <option v-for="(el, index) in [1, 20, 40, 50, 60, 70, 80, 90]" :key="index">{{ el }}</option>
+							</select>
+						</div>
+
+						<!-- @vue-skip -->
+						<div
+							class="flex justify-between items-center rounded px-1 py-0.5 even:bg-slate-800"
+							v-for="(el, index) in resonator.stats[Number(selected)]" :key="index"
+						>
+							<div class="flex items-center space-x-1">
+								<img class="w-6 h-6" :src="attributes[`${index}`].icon" :alt="index">
+								<p>{{ $t(`resonators.stats.${index}`) }}</p>
+							</div>
+							<p>{{ Math.round(Number(el)) }}</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<img
-				class="absolute -right-2 top-0 max-h-[90vh] opacity-10"
+				class="absolute top-0 right-0 max-h-[90vh] opacity-10"
 				:src="resonator.portrait"
 				alt=""
 			>
@@ -64,11 +91,23 @@
 
 <script setup lang="ts">
 import router from '../../../router';
+import i18n from '../../../i18n';
 
+import attributes from '../../../assets/attributes.json';
 import elements from '../../../assets/elements.json';
 import weapons from '../../../assets/weapons.json';
 
 import resonators from '../../../assets/resonators.json';
+import { ref } from 'vue';
+
+const selected = ref("90");
+
+type statsType = {
+	"hp": number;
+	"atk": number;
+	"def": number;
+};
+
 type IResonator = {
 	name: string;
 	subname: string;
@@ -76,6 +115,16 @@ type IResonator = {
 	icon: string;
 	portrait: string;
 	rarity: 5 | 4;
+	stats: {
+		"1": statsType;
+		"20": statsType;
+		"40": statsType;
+		"50": statsType;
+		"60": statsType;
+		"70": statsType;
+		"80": statsType;
+		"90": statsType;
+	};
 	element: keyof typeof elements;
 	weapon: keyof typeof weapons;
 	show: boolean;
