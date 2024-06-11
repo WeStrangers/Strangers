@@ -16,7 +16,6 @@
 				<component class="p-4" :is="Component" />
 			</transition>
 		</router-view>
-		<!-- <Sidebar /> -->
 	</div>
 </template>
 
@@ -28,11 +27,9 @@ type Elements = typeof elements;
 import weapons from '../assets/weapons.json';
 type Weapons = typeof weapons;
 import resonators from '../assets/resonators.json';
-resonators;
 
 import Filter from '../components/main/resonators/Filter.vue';
 import Card from '../components/main/resonators/Card.vue';
-// import Sidebar from '../components/main/resonators/Sidebar.vue';
 
 const filters: Ref<{
 	elements: Array<keyof Elements>,
@@ -44,14 +41,14 @@ const filters: Ref<{
 provide('filters', filters);
 
 const resonator: Ref<{
-	name: string,
-	description: string,
-	icon: string,
-	portrait: string,
-	rarity: number
-	element: keyof Elements,
-	weapon: keyof Weapons,
-	show: boolean
+	name: string;
+	description: string;
+	icon: string;
+	portrait: string;
+	rarity: 5 | 4;
+	element: keyof Elements;
+	weapon: keyof Weapons;
+	show: boolean;
 } | null> = ref(null);
 provide('resonator', resonator);
 </script>
@@ -59,7 +56,7 @@ provide('resonator', resonator);
 <style scoped>
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.25s ease;
 }
 
 .v-enter-from,
